@@ -68,7 +68,7 @@ shortest-route-finder/
 
 ---
 
-🚀 How to Run the Application
+## 🚀 How to Run the Application
 
 Step 1: Clone the Repository
 Open your terminal and run:
@@ -79,12 +79,14 @@ Step 2: Running the Backend (Spring Boot)
 The backend acts as the core engine for our routing algorithm and REST API.
 * cd backend
 * ./mvnw clean spring-boot:run
+
 ```The server will start, and the API will be accessible at http://localhost:8080.```
 
 Step 3: Running the Frontend (React Native)
 * cd frontend
 * npm install
 * npm run start
+
 ```Open the Expo Go app on your phone and scan the QR code displayed in the terminal. (Note: Ensure your phone and PC are connected to the same Wi-Fi network).```
 
 ---
