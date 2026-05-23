@@ -1,98 +1,142 @@
-import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
+/**
+ * Tab "Peta" — layar utama aplikasi.
+ *
+ * <p>Layar ini full-screen tanpa padding tab bar (tab bar transparan akan
+ * meng-overlay di atas peta — lihat {@code BlurTabBarBackground}). Overlay
+ * informasi ({@code MapLegend}) dan kontrol ({@code RecenterButton})
+ * diletakkan absolute pada peta.</p>
+ *
+ * <h3>Integrasi routing (Fitur 3)</h3>
+ * <p>Layar ini juga berperan sebagai konsumer state {@code route-store}:</p>
+ * <ul>
+ *   <li>Bila {@code currentRoute} non-null, polyline rute aktif dirender
+ *       via prop {@code route} pada {@link CampusMap} dan
+ *       {@link RouteSheet} muncul sebagai bottom sheet.</li>
+ *   <li>Bila {@code picking} non-null, tap di peta diteruskan ke handler
+ *       yang men-set koordinat di store dan kembali ke tab Cari (FR-UI-RT-02).</li>
+ * </ul>
+ */
+import { router } from 'expo-router';
+import { useRef } from 'react';
+import { StyleSheet, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import type { LatLng } from 'react-native-maps';
 
-import { HelloWave } from '@/components/hello-wave';
-import ParallaxScrollView from '@/components/parallax-scroll-view';
+import { CampusMap, type CampusMapHandle } from '@/components/map/CampusMap';
+import { MapLegend } from '@/components/map/MapLegend';
+import { RecenterButton } from '@/components/map/RecenterButton';
+import { RouteSheet } from '@/components/route/RouteSheet';
 import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { Link } from 'expo-router';
+import { GlassCard } from '@/components/ui/GlassCard';
+import { Spacing } from '@/constants/theme';
+import { useRouteStore } from '@/stores/route-store';
 
-export default function HomeScreen() {
+export default function MapHomeScreen() {
+  const insets = useSafeAreaInsets();
+  const mapHandleRef = useRef<CampusMapHandle>(null);
+
+  // Routing state — selector spesifik per field.
+  const currentRoute = useRouteStore((s) => s.currentRoute);
+  const picking = useRouteStore((s) => s.picking);
+  const setPendingFrom = useRouteStore((s) => s.setPendingFrom);
+  const setPendingTo = useRouteStore((s) => s.setPendingTo);
+  const setPicking = useRouteStore((s) => s.setPicking);
+  const clear = useRouteStore((s) => s.clear);
+
+  const handlePickPoint = (point: LatLng) => {
+    if (picking === 'from') {
+      setPendingFrom(point);
+    } else if (picking === 'to') {
+      setPendingTo(point);
+    }
+    setPicking(null);
+    router.navigate('/(tabs)/search');
+  };
+
+  // Bottom margin dasar agar legend & sheet tidak tertutup tab bar.
+  const bottomBase = insets.bottom + 96;
+
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-      headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
-        />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12',
-            })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <Link href="/modal">
-          <Link.Trigger>
-            <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-          </Link.Trigger>
-          <Link.Preview />
-          <Link.Menu>
-            <Link.MenuAction title="Action" icon="cube" onPress={() => alert('Action pressed')} />
-            <Link.MenuAction
-              title="Share"
-              icon="square.and.arrow.up"
-              onPress={() => alert('Share pressed')}
-            />
-            <Link.Menu title="More" icon="ellipsis">
-              <Link.MenuAction
-                title="Delete"
-                icon="trash"
-                destructive
-                onPress={() => alert('Delete pressed')}
-              />
-            </Link.Menu>
-          </Link.Menu>
-        </Link>
+    <View style={styles.container}>
+      <CampusMap
+        ref={mapHandleRef}
+        route={currentRoute}
+        onPickPoint={picking ? handlePickPoint : undefined}
+      />
 
-        <ThemedText>
-          {`Tap the Explore tab to learn more about what's included in this starter app.`}
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
-    </ParallaxScrollView>
+      <RecenterButton
+        onPress={() => mapHandleRef.current?.recenter()}
+        style={[
+          styles.recenter,
+          { top: insets.top + Spacing.sm, right: Spacing.lg },
+        ]}
+      />
+
+      {/* Banner instruksi saat user sedang memilih titik. */}
+      {picking ? (
+        <GlassCard
+          tone="strong"
+          style={[styles.pickingBanner, { top: insets.top + Spacing.xl + 36 }]}
+          accessibilityRole="alert"
+          accessibilityLabel={
+            picking === 'from' ? 'Tap di peta untuk pilih asal' : 'Tap di peta untuk pilih tujuan'
+          }
+        >
+          <ThemedText style={styles.pickingText}>
+            Tap di peta untuk pilih{' '}
+            <ThemedText style={styles.pickingTextBold}>
+              {picking === 'from' ? 'asal' : 'tujuan'}
+            </ThemedText>
+          </ThemedText>
+        </GlassCard>
+      ) : null}
+
+      {/* Bottom sheet ringkasan rute (FR-UI-RT-05). */}
+      {currentRoute ? (
+        <RouteSheet
+          route={currentRoute}
+          onClear={clear}
+          style={[
+            styles.routeSheet,
+            { bottom: bottomBase, left: Spacing.lg, right: Spacing.lg },
+          ]}
+        />
+      ) : (
+        <MapLegend
+          style={[
+            styles.legend,
+            { bottom: bottomBase, right: Spacing.lg },
+          ]}
+        />
+      )}
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
+  container: {
+    flex: 1,
   },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
-  },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
+  recenter: {
     position: 'absolute',
+  },
+  legend: {
+    position: 'absolute',
+    width: 180,
+  },
+  routeSheet: {
+    position: 'absolute',
+  },
+  pickingBanner: {
+    position: 'absolute',
+    left: Spacing.lg,
+    right: Spacing.lg,
+  },
+  pickingText: {
+    fontSize: 14,
+    textAlign: 'center',
+  },
+  pickingTextBold: {
+    fontWeight: '700',
   },
 });

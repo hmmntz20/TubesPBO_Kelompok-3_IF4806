@@ -43,6 +43,15 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "apiBaseUrl": "http://10.0.2.2:8080",
+      "supabaseUrl": "",
+      "supabaseAnonKey": "",
+      "router": {},
+      "eas": {
+        "projectId": "57d01055-4378-4d5d-b1be-91a5258ff22f"
+      }
     }
   }
 }
