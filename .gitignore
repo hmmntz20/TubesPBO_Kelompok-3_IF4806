@@ -1,0 +1,64 @@
+# ───────────────────────────────────────────────────────────────────────────
+# Telkom Route Finder — root .gitignore (monorepo)
+# Sub-folder (frontend/, backend/) memiliki .gitignore tersendiri yang lebih
+# spesifik. File ini hanya menutup gap lintas-proyek.
+# ───────────────────────────────────────────────────────────────────────────
+
+# ── Environment / secrets (Google Maps API key, DB credentials, dsb.) ──
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+
+# Backend secrets — file lokal yang men-export DB_PASSWORD, SUPABASE_JWT_SECRET, dst.
+backend/scripts/set-env.sh
+# Properties override lokal (mis. application-local.properties berisi password)
+backend/src/main/resources/application-local.properties
+
+# ── Build outputs ──
+**/target/
+**/build/
+**/dist/
+**/out/
+**/.expo/
+**/web-build/
+**/.next/
+**/.cache/
+
+# ── Dependencies ──
+**/node_modules/
+
+# ── Logs ──
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+hs_err_pid*
+
+# ── Editor / IDE ──
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode-test/
+
+# ── OS noise ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Backup / temp ──
+*.swp
+*.swo
+*~
+.tmp/
+
+# ── Spec drafts (jangan abaikan — eksplisit allow) ──
+specs/
+
+# ── Coverage / reports ──
+coverage/
+.nyc_output/
+*.lcov
