@@ -1,0 +1,3 @@
+@echo off
+echo 🚀 Memulai server Expo Dev Client...
+call npx expo start -c --dev-client
