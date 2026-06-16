@@ -3,13 +3,16 @@ package com.tubespbo.backend.model;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+import org.hibernate.annotations.JdbcTypeCode;
+import org.hibernate.type.SqlTypes;
+
 @Entity
 @Table(name = "users")
 public class User {
 
     @Id
-    @Column(name = "user_id")
-    private String userId;
+    @Column(name = "id")
+    private java.util.UUID userId;
 
     private String username;
     
@@ -41,8 +44,8 @@ public class User {
     // ==========================================
     // GETTER & SETTER MANUAL (ANTI-ERROR)
     // ==========================================
-    public String getUserId() { return userId; }
-    public void setUserId(String userId) { this.userId = userId; }
+    public String getUserId() { return userId != null ? userId.toString() : null; }
+    public void setUserId(String userId) { this.userId = userId != null ? java.util.UUID.fromString(userId) : null; }
 
     public String getUsername() { return username; }
     public void setUsername(String username) { this.username = username; }

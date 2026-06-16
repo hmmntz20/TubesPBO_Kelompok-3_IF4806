@@ -10,11 +10,11 @@ public class History {
 
     @Id
     @Column(name = "id")
-    private String historyId;
+    private java.util.UUID historyId;
 
     // Relasi Many-to-One ke tabel users
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "user_id") 
     private User user;
 
     @Column(name = "created_at")
@@ -40,7 +40,7 @@ public class History {
 
     public History(String historyId, User user, LocalDateTime timestamp, String startPointName, 
                    String endPointName, Float distance, Float duration, TravelMode transportMode) {
-        this.historyId = historyId;
+        this.historyId = historyId != null ? java.util.UUID.fromString(historyId) : null;
         this.user = user;
         this.timestamp = timestamp;
         this.startPointName = startPointName;
@@ -50,9 +50,8 @@ public class History {
         this.transportMode = transportMode;
     }
 
-    // --- Getter Setter ---
-    public String getHistoryId() { return historyId; }
-    public void setHistoryId(String historyId) { this.historyId = historyId; }
+    public String getHistoryId() { return historyId != null ? historyId.toString() : null; }
+    public void setHistoryId(String historyId) { this.historyId = historyId != null ? java.util.UUID.fromString(historyId) : null; }
     public User getUser() { return user; }
     public void setUser(User user) { this.user = user; }
     public LocalDateTime getTimestamp() { return timestamp; }

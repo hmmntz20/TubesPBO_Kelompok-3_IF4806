@@ -35,8 +35,13 @@ public class HistoryController {
 
     // Endpoint untuk menyimpan riwayat baru
     @PostMapping("/save")
-    public ResponseEntity<History> saveHistory(@RequestBody History history) {
-        // ID digenerate otomatis menggunakan UUID jika belum ada
+    public ResponseEntity<?> saveHistory(@RequestBody History history) {
+        
+        // Cek apakah user dan userId-nya ada
+        if (history.getUser() == null || history.getUser().getUserId() == null) {
+            return ResponseEntity.badRequest().body("Error: userId tidak boleh kosong!");
+        }
+        
         if (history.getHistoryId() == null || history.getHistoryId().isEmpty()) {
             history.setHistoryId(java.util.UUID.randomUUID().toString());
         }

@@ -13,25 +13,35 @@ import java.util.UUID;
 public class UserService {
 
     @Autowired
+    private EmailService emailService;
+
+    @Autowired
     private UserRepository userRepository;
 
     // 1. Method Register
-    public User register(String username, String email, String password) {
-        if (userRepository.findByEmail(email).isPresent()) {
+    public User register(User user) {
+
+        if (userRepository.findByEmail(user.getEmail()).isPresent()) {
             throw new RuntimeException("Email sudah terdaftar!");
         }
 
-        User newUser = new User();
-        newUser.setUserId(UUID.randomUUID().toString()); 
-        newUser.setUsername(username);
-        newUser.setEmail(email);
-        newUser.setPassword(password); 
-        newUser.setLoginProvider(User.LoginProvider.LOCAL);
-        
-        newUser.setVerificationToken(UUID.randomUUID().toString()); 
-        newUser.setTokenExpiredAt(LocalDateTime.now().plusMinutes(15)); 
+        if (user.getUserId() == null) {
+            user.setUserId(UUID.randomUUID().toString());
+        }
 
-        return userRepository.save(newUser); 
+        user.setLoginProvider(User.LoginProvider.LOCAL);
+
+        String token = UUID.randomUUID().toString();
+
+        user.setVerificationToken(token);
+        user.setTokenExpiredAt(LocalDateTime.now().plusMinutes(15));
+
+        User savedUser = userRepository.save(user);
+
+        String verificationLink = "http://localhost:8080/api/users/verify?token=" + token;
+        emailService.sendVerificationEmail(savedUser.getEmail(), verificationLink);
+        return savedUser;
+
     }
 
     // 2. Method Verify Email
@@ -63,8 +73,8 @@ public class UserService {
                 user.setVerificationToken(UUID.randomUUID().toString());
                 user.setTokenExpiredAt(LocalDateTime.now().plusMinutes(15));
                 userRepository.save(user);
-                
-                // Catatan: Nanti logika kirim email beneran pakai Gmail ditaruh di sini
+                String newLink = "http://localhost:8080/api/users/verify?token=" + user.getVerificationToken();
+                emailService.sendVerificationEmail(user.getEmail(), newLink);
             } else {
                 throw new RuntimeException("Email sudah diverifikasi sebelumnya.");
             }
@@ -100,6 +110,81 @@ public class UserService {
         }
         
         throw new RuntimeException("Gagal: Email tidak terdaftar di sistem kami!");
+    }
+
+    // --------------------------------------------------------
+    // FITUR UPDATE PROFILE (USERNAME & PHOTO)
+    // Berlaku untuk akun LOCAL maupun GOOGLE
+    // --------------------------------------------------------
+    public User updateProfile(String email, String newUsername, String newProfilePhoto) {
+        Optional<User> userOpt = userRepository.findByEmail(email);
+        
+        if (userOpt.isPresent()) {
+            User user = userOpt.get();
+            
+            // Update username jika diisi
+            if (newUsername != null && !newUsername.trim().isEmpty()) {
+                user.setUsername(newUsername);
+            }
+            
+            // Update profile photo jika diisi
+            if (newProfilePhoto != null && !newProfilePhoto.trim().isEmpty()) {
+                user.setProfilePhoto(newProfilePhoto);
+            }
+            
+            return userRepository.save(user);
+        }
+        throw new RuntimeException("Gagal: User dengan email tersebut tidak ditemukan.");
+    }
+
+    // --------------------------------------------------------
+    // FITUR UPDATE PASSWORD
+    // HANYA berlaku untuk akun LOCAL
+    // --------------------------------------------------------
+    public boolean updatePassword(String email, String oldPassword, String newPassword) {
+        Optional<User> userOpt = userRepository.findByEmail(email);
+        
+        if (userOpt.isPresent()) {
+            User user = userOpt.get();
+            
+            // Validasi Provider: Tolak jika ini akun Google
+            if (user.getLoginProvider() == User.LoginProvider.GOOGLE) {
+                throw new RuntimeException("Gagal: Akun Google tidak dapat mengubah password melalui aplikasi ini.");
+            }
+            
+            // Validasi Password Lama
+            if (!user.getPassword().equals(oldPassword)) {
+                throw new RuntimeException("Gagal: Password lama yang Anda masukkan salah!");
+            }
+            
+            // Update Password Baru
+            user.setPassword(newPassword);
+            userRepository.save(user);
+            return true;
+        }
+        throw new RuntimeException("Gagal: User dengan email tersebut tidak ditemukan.");
+    }
+
+    // --------------------------------------------------------
+    // FITUR LOGIN GOOGLE
+    // --------------------------------------------------------
+    public User loginGoogle(String email, String username, String profilePhoto) {
+        Optional<User> userOpt = userRepository.findByEmail(email);
+        
+        if (userOpt.isPresent()) {
+            // Jika user sudah ada, langsung kembalikan datanya (Login)
+            return userOpt.get();
+        } else {
+            // Jika belum ada, otomatis daftarkan (Register by Google)
+            User newUser = new User();
+            newUser.setUserId(UUID.randomUUID().toString());
+            newUser.setUsername(username);
+            newUser.setEmail(email);
+            newUser.setProfilePhoto(profilePhoto);
+            newUser.setLoginProvider(User.LoginProvider.GOOGLE);
+            newUser.setIsEmailVerified(true); // Google pastinya sudah verified
+            return userRepository.save(newUser);
+        }
     }
 
 } // <-- Ini tutup kurung kurawal yang tadi hilang!
