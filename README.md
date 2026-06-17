@@ -12,7 +12,7 @@
 
 | No | Student ID (NIM) | Name                      |
 |:--:|:----------------:|:-------------------------:|
-| 1  | 103012400118     | [HN]                      |
+| 1  | 103012400118     | [H.N]                      |
 | 2  | 103012400277     | [Putri Rahayu Damayanti]  |
 | 3  | 103012430055     | [Putri Ayu Lestari]       |
 | 4  | 103012400305     | [Najla Tsabita Afiyah]    |
