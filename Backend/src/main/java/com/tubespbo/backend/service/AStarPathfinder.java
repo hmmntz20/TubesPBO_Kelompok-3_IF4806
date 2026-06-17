@@ -334,7 +334,18 @@ public class AStarPathfinder {
 
         List<List<Double>> coordinates = new java.util.ArrayList<>();
         for (int i = 0; i < edgesUsed.size(); i++) {
-            List<List<Double>> edgeCoords = edgesUsed.get(i).getCoordinates();
+            Edge edge = edgesUsed.get(i);
+            Node startNodeOfThisEdge = path.get(i); // Titik kita berdiri saat ini
+            
+            // Copy list agar tidak merubah urutan asli di memori Java
+            List<List<Double>> edgeCoords = new java.util.ArrayList<>(edge.getCoordinates());
+            
+            // JIKA jalan ini dilewati dari arah terbalik, REVERSE urutannya!
+            // (Sama seperti [...coords].reverse() di TypeScript)
+            if (!edge.getFromNode().equals(startNodeOfThisEdge.getId())) {
+                java.util.Collections.reverse(edgeCoords);
+            }
+
             if (edgeCoords != null && !edgeCoords.isEmpty()) {
                 if (i == 0) coordinates.addAll(edgeCoords);
                 else coordinates.addAll(edgeCoords.subList(1, edgeCoords.size()));
@@ -458,8 +469,8 @@ public class AStarPathfinder {
                 String turn = getTurnInstruction(bearing1, bearing2);
 
                 if (!turn.equals("straight")) {
-                    String text = turn.equals("turn_left") ? "Belok kiri" :
-                                  turn.equals("turn_right") ? "Belok kanan" : "Putar balik";
+                    String text = turn.equals("turn_left") ? "Turn left" :
+                                  turn.equals("turn_right") ? "Turn right" : "U-turn";
                     text += " sejauh " + Math.round(currentSegmentDist) + " meter";
 
                     instructions.add(new RouteResult.NavigationInstruction(

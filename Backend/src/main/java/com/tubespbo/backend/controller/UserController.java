@@ -44,18 +44,28 @@ public class UserController {
     public ResponseEntity<?> loginUser(@RequestParam String email, 
                                        @RequestParam String password) {
         try {
-            boolean isSuccess = userService.loginLocal(email, password);
-            if (isSuccess) {
-                // Di dunia nyata, di sini kita me-return Token JWT (Session).
-                // Tapi untuk saat ini, kita return pesan sukses saja.
-                return ResponseEntity.ok("Login Berhasil! Selamat datang di aplikasi.");
-            }
-            return ResponseEntity.status(401).body("Login gagal karena alasan yang tidak diketahui.");
+            User user = userService.loginLocal(email, password); 
+            
+            return ResponseEntity.ok(user); 
         } catch (Exception e) {
-            // Menangkap pesan error dari UserService (misal: "Password salah!" atau "Email belum diverifikasi!")
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
+
+    @PostMapping("/login-google")
+    public ResponseEntity<?> loginGoogleUser(@RequestParam String email, 
+                                             @RequestParam String username,
+                                             @RequestParam(required = false) String profilePhoto) {
+        try {
+            User user = userService.loginGoogle(email, username, profilePhoto);
+            
+            // PENTING: Kembalikan objek user-nya juga!
+            return ResponseEntity.ok(user); 
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+    
 // Endpoint untuk Ubah Username dan Profile Photo
     @PutMapping("/update-profile")
     public ResponseEntity<?> updateProfile(@RequestParam String email, 
@@ -82,18 +92,6 @@ public class UserController {
             return ResponseEntity.badRequest().body("Gagal mengubah password.");
         } catch (Exception e) {
             return ResponseEntity.badRequest().body(e.getMessage());
-        }
-    }
-
-    @PostMapping("/login-google")
-    public ResponseEntity<?> loginGoogleUser(@RequestParam String email, 
-                                             @RequestParam String username,
-                                             @RequestParam(required = false) String profilePhoto) {
-        try {
-            User user = userService.loginGoogle(email, username, profilePhoto);
-            return ResponseEntity.ok("Login Google Berhasil! Selamat datang, " + user.getUsername());
-        } catch (Exception e) {
-            return ResponseEntity.badRequest().body("Gagal login dengan Google: " + e.getMessage());
         }
     }
 }

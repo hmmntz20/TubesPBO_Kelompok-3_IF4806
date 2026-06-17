@@ -1,0 +1,364 @@
+WKT,id,from_node,to_node,is_one_way,speed_pedestrian,speed_motorcycle,speed_car,is_pedestrian_allowed,is_motorcycle_allowed,is_car_allowed
+"LINESTRING (107.633468675858 -6.97209313800926,107.633432801368 -6.97209557699639)",intersection_edge_1,gate_1,intersection_node_1,true,5,20,15,true,true,false
+"LINESTRING (107.633432801368 -6.97209557699639,107.633416584133 -6.97205313861849)",intersection_edge_2,intersection_node_1,intersection_node_3,true,5,20,15,true,true,false
+"LINESTRING (107.633416584133 -6.97205313861849,107.633465350493 -6.97206075388371)",intersection_edge_3,intersection_node_3,intersection_node_2,true,5,20,15,true,true,false
+"LINESTRING (107.633465350493 -6.97206075388371,107.633468675858 -6.97209313800926)",intersection_edge_4,intersection_node_2,gate_1,true,5,20,15,true,true,false
+"LINESTRING (107.633380753838 -6.97319824763419,107.63328177502 -6.97315882251886)",intersection_edge_450,gate_2,intersection_node_310,true,5,20,15,true,false,true
+"LINESTRING (107.63328177502 -6.97315882251886,107.633248514477 -6.97306355467476)",intersection_edge_451,intersection_node_310,intersection_node_11,true,5,20,15,true,false,true
+"LINESTRING (107.633248514477 -6.97306355467476,107.633350601453 -6.97311398926718)",intersection_edge_452,intersection_node_11,intersection_node_311,true,5,20,15,true,false,true
+"LINESTRING (107.633350601453 -6.97311398926718,107.633380753838 -6.97319824763419)",intersection_edge_453,intersection_node_311,gate_2,true,5,20,15,true,false,true
+"LINESTRING (107.628922519993 -6.97129786609666,107.628917135088 -6.97149303370619)",intersection_edge_9,intersection_node_17,intersection_node_34,false,5,20,15,true,false,false
+"LINESTRING (107.628917135088 -6.97149303370619,107.628886600836 -6.97149108145988)",intersection_edge_10,intersection_node_34,street_food,false,5,20,15,true,false,false
+"LINESTRING (107.628917135088 -6.97149303370619,107.628914503038 -6.97154136661798)",intersection_edge_11,intersection_node_34,intersection_node_31,false,5,20,15,true,false,false
+"LINESTRING (107.628914503038 -6.97154136661798,107.628737960597 -6.9715320678219)",intersection_edge_12,intersection_node_31,focus_fitness,false,5,20,15,true,false,false
+"LINESTRING (107.628914503038 -6.97154136661798,107.628910999611 -6.97163492440018)",intersection_edge_13,intersection_node_31,intersection_node_30,false,5,20,15,true,false,false
+"LINESTRING (107.628910999611 -6.97163492440018,107.628732140541 -6.97163201035076)",intersection_edge_14,intersection_node_30,sport_centre,false,5,20,15,true,false,false
+"LINESTRING (107.628922519993 -6.97129786609666,107.62892369956 -6.97123350019944)",intersection_edge_15,intersection_node_17,intersection_node_19,false,5,20,15,true,false,false
+"LINESTRING (107.62892369956 -6.97123350019944,107.628835087058 -6.97122618360184)",intersection_edge_16,intersection_node_19,intersection_node_20,false,5,20,15,true,false,false
+"LINESTRING (107.628830942997 -6.96966374242596,107.628194588083 -6.96963726374874)",intersection_edge_124,intersection_node_98,intersection_node_56,false,5,20,15,true,false,false
+"LINESTRING (107.628830942997 -6.96966374242596,107.628895079372 -6.96966531858215)",intersection_edge_125,intersection_node_98,intersection_node_35,false,5,20,15,true,false,false
+"LINESTRING (107.62884957662 -6.97089644558487,107.628795125764 -6.97089219519738)",intersection_edge_138,intersection_node_99,intersection_node_21,false,5,20,15,true,false,false
+"LINESTRING (107.628835087058 -6.97122618360184,107.62884957662 -6.97089644558487)",intersection_edge_127,intersection_node_20,intersection_node_99,false,5,20,15,true,false,false
+"LINESTRING (107.62877898153 -6.97122157683418,107.628681441886 -6.97124875723559)",intersection_edge_30,intersection_node_18,intersection_node_67,false,5,20,15,true,false,false
+"LINESTRING (107.628583354786 -6.97120624679268,107.62858394634 -6.97124387783491)",intersection_edge_31,intersection_node_39,intersection_node_68,false,5,20,15,true,false,false
+"LINESTRING (107.62858394634 -6.97124387783491,107.6285828 -6.9712857)",intersection_edge_32,intersection_node_68,tj_mart,false,5,20,15,true,false,false
+"LINESTRING (107.628681441886 -6.97124875723559,107.62858394634 -6.97124387783491)",intersection_edge_33,intersection_node_67,intersection_node_68,false,5,20,15,true,false,false
+"LINESTRING (107.62858394634 -6.97124387783491,107.628471703568 -6.97124469106836)",intersection_edge_34,intersection_node_68,barbershop_asrama_putra,false,5,20,15,true,false,false
+"LINESTRING (107.628583354786 -6.97120624679268,107.628314661387 -6.97119209330002)",intersection_edge_35,intersection_node_39,intersection_node_40,false,5,20,15,true,true,false
+"LINESTRING (107.628314661387 -6.97119209330002,107.6283143 -6.9712806)",intersection_edge_36,intersection_node_40,dormitory_hall,false,5,20,15,true,false,false
+"LINESTRING (107.628314661387 -6.97119209330002,107.62815899028 -6.97118841424579)",intersection_edge_38,intersection_node_40,intersection_node_41,false,5,20,15,true,true,false
+"LINESTRING (107.628473323905 -6.97087888590222,107.628161273618 -6.97085710705478)",intersection_edge_154,intersection_node_60,intersection_node_105,false,5,20,15,true,true,false
+"LINESTRING (107.62815899028 -6.97118841424579,107.627534452627 -6.97116082133817)",intersection_edge_155,intersection_node_41,intersection_node_104,false,5,20,15,true,true,false
+"LINESTRING (107.62757244379 -6.97082602726298,107.627534452627 -6.97116082133817)",intersection_edge_156,intersection_node_44,intersection_node_104,false,5,20,15,true,true,false
+"LINESTRING (107.62757244379 -6.97082602726298,107.627580845229 -6.97054410921526)",intersection_edge_48,intersection_node_44,intersection_node_48,false,5,20,15,true,true,false
+"LINESTRING (107.627580845229 -6.97054410921526,107.627849248703 -6.97055397943071)",intersection_edge_49,intersection_node_48,intersection_node_64,false,5,20,15,true,true,false
+"LINESTRING (107.627849248703 -6.97055397943071,107.628173463082 -6.97057761175608)",intersection_edge_50,intersection_node_64,intersection_node_50,false,5,20,15,true,true,false
+"LINESTRING (107.627534452627 -6.97116082133817,107.626943858683 -6.97113088054642)",intersection_edge_157,intersection_node_104,intersection_node_45,false,5,20,15,true,true,false
+"LINESTRING (107.62757244379 -6.97082602726298,107.627268514487 -6.97083062608431)",intersection_edge_56,intersection_node_44,intersection_node_66,false,5,20,15,true,true,false
+"LINESTRING (107.627580845229 -6.97054410921526,107.626990796871 -6.97053166563133)",intersection_edge_58,intersection_node_48,intersection_node_47,false,5,20,15,true,true,false
+"LINESTRING (107.62686432453 -6.97112182114736,107.62686432453 -6.97112182114736,107.626943858683 -6.97113088054642)",intersection_edge_411,pengelolaan_kompos_asrama,intersection_node_45,false,5,20,15,true,false,false
+"LINESTRING (107.626943858683 -6.97113088054642,107.626979062324 -6.97082933188363)",intersection_edge_412,intersection_node_45,intersection_node_46,false,5,20,15,true,true,false
+"LINESTRING (107.628173463082 -6.97057761175608,107.628173463082 -6.97023761941477)",intersection_edge_68,intersection_node_50,intersection_node_52,false,5,20,15,true,true,false
+"LINESTRING (107.628173463082 -6.97023761941477,107.628185461213 -6.96993234216281)",intersection_edge_69,intersection_node_52,intersection_node_55,false,5,20,15,true,true,false
+"LINESTRING (107.628889428561 -6.96995905430177,107.628804877336 -6.96995449393165)",intersection_edge_139,intersection_node_102,intersection_node_96,false,5,20,15,true,false,false
+"LINESTRING (107.628473323905 -6.97087888590222,107.62847531254 -6.97081538865682)",intersection_edge_83,intersection_node_60,asrama_putra_2,false,5,20,15,true,true,false
+"LINESTRING (107.628473323905 -6.97087888590222,107.628469754521 -6.97096826521971)",intersection_edge_84,intersection_node_60,asrama_putra_1,false,5,20,15,true,true,false
+"LINESTRING (107.6278652814 -6.97021452144448,107.627857346952 -6.97038471196909)",intersection_edge_73,intersection_node_63,asrama_park,false,5,20,15,true,false,false
+"LINESTRING (107.627849248703 -6.97055397943071,107.627857346952 -6.97038471196909)",intersection_edge_74,intersection_node_64,asrama_park,false,5,20,15,true,false,false
+"LINESTRING (107.627874165021 -6.97078326256269,107.627869886797 -6.97084534231228)",intersection_edge_85,asrama_putra_5,intersection_node_61,false,5,20,15,true,true,false
+"LINESTRING (107.627869604422 -6.97093588334027,107.627869886797 -6.97084534231228)",intersection_edge_86,asrama_putra_4,intersection_node_61,false,5,20,15,true,true,false
+"LINESTRING (107.627268514487 -6.97083062608431,107.627266772987 -6.97091106793491)",intersection_edge_87,intersection_node_66,asrama_putra_6,false,5,20,15,true,true,false
+"LINESTRING (107.627268514487 -6.97083062608431,107.627268452874 -6.97076599806195)",intersection_edge_88,intersection_node_66,asrama_putra_7,false,5,20,15,true,true,false
+"LINESTRING (107.627287301004 -6.97020183578202,107.627284970815 -6.97029609452331)",intersection_edge_89,intersection_node_58,asrama_putra_8,false,5,20,15,true,true,false
+"LINESTRING (107.628515968817 -6.9702643963729,107.628513372848 -6.97034958919291)",intersection_edge_91,intersection_node_62,asrama_putra_3,false,5,20,15,true,true,false
+"LINESTRING (107.6275914753 -6.97019957340671,107.627609062263 -6.96990474695296)",intersection_edge_92,intersection_node_51,intersection_node_53,false,5,20,15,true,true,false
+"LINESTRING (107.627893589768 -6.96991664392976,107.627609062263 -6.96990474695296)",intersection_edge_94,intersection_node_57,intersection_node_53,false,5,20,15,true,true,false
+"LINESTRING (107.627893589768 -6.96991664392976,107.627890318948 -6.97001621462821)",intersection_edge_95,intersection_node_57,asrama_putra_9,false,5,20,15,true,true,false
+"LINESTRING (107.627893979308 -6.96984908235412,107.627893589768 -6.96991664392976)",intersection_edge_96,asrama_putra_10,intersection_node_57,false,5,20,15,true,true,false
+"LINESTRING (107.628516740545 -6.96994560238766,107.628517460711 -6.97003438117615)",intersection_edge_98,intersection_node_59,asrama_putra_11,false,5,20,15,true,false,false
+"LINESTRING (107.628516740545 -6.96994560238766,107.628517460711 -6.96988420435869)",intersection_edge_99,intersection_node_59,asrama_putra_12,false,5,20,15,true,false,false
+"LINESTRING (107.627856648413 -6.9695648345613,107.627852982377 -6.96961655648463)",intersection_edge_120,intersection_node_72,intersection_node_73,false,5,20,15,true,false,false
+"LINESTRING (107.628185461213 -6.96993234216281,107.628194588083 -6.96963726374874)",intersection_edge_102,intersection_node_55,intersection_node_56,false,5,20,15,true,true,false
+"LINESTRING (107.627852982377 -6.96961655648463,107.628194588083 -6.96963726374874)",intersection_edge_142,intersection_node_73,intersection_node_56,false,5,20,15,true,true,false
+"LINESTRING (107.627609062263 -6.96990474695296,107.627628722143 -6.96961267387251)",intersection_edge_121,intersection_node_53,intersection_node_94,false,5,20,15,true,true,false
+"LINESTRING (107.627852982377 -6.96961655648463,107.627628722143 -6.96961267387251)",intersection_edge_122,intersection_node_73,intersection_node_94,false,5,20,15,true,true,false
+"LINESTRING (107.627575471291 -6.96961659472898,107.627394619411 -6.96976732749136)",intersection_edge_107,intersection_node_54,intersection_node_71,false,5,20,15,true,false,false
+"LINESTRING (107.627394619411 -6.96976732749136,107.627454400113 -6.96983432626606)",intersection_edge_108,intersection_node_71,intersection_node_74,false,5,20,15,true,false,false
+"LINESTRING (107.627454400113 -6.96983432626606,107.627347494346 -6.96992948440343)",intersection_edge_109,intersection_node_74,kantin_asrama_putra,false,5,20,15,true,false,false
+"LINESTRING (107.627459 -6.9700676,107.627347494346 -6.96992948440343)",intersection_edge_110,parkiran_motor_kantin_asrama_putra,kantin_asrama_putra,false,5,20,15,true,false,false
+"LINESTRING (107.627347494346 -6.96992948440343,107.62721095709 -6.97004771115326)",intersection_edge_111,kantin_asrama_putra,intersection_node_75,false,5,20,15,true,false,false
+"LINESTRING (107.62721095709 -6.97004771115326,107.627168 -6.9699928)",intersection_edge_112,intersection_node_75,mushola_kantin_asrama_putra,false,5,20,15,true,false,false
+"LINESTRING (107.628965778266 -6.97163146545313,107.628910999611 -6.97163492440018)",intersection_edge_115,intersection_node_33,intersection_node_30,false,5,20,15,true,false,false
+"LINESTRING (107.628966997212 -6.97154193032875,107.628914503038 -6.97154136661798)",intersection_edge_116,intersection_node_32,intersection_node_31,false,5,20,15,true,false,false
+"LINESTRING (107.628390652764 -6.96941630942055,107.628455516444 -6.96941518515655)",intersection_edge_117,intersection_node_92,parkiran_mobil_mahasiswa_tult,false,5,20,15,true,true,true
+"LINESTRING (107.628532959152 -6.96941630942055,107.628455516444 -6.96941518515655)",intersection_edge_118,intersection_node_93,parkiran_mobil_mahasiswa_tult,false,5,20,15,true,true,true
+"LINESTRING (107.628124320704 -6.96920263502236,107.628124299018 -6.96915935899224)",intersection_edge_119,intersection_node_91,tult,false,5,20,15,true,true,false
+"LINESTRING (107.627628722143 -6.96961267387251,107.627575471291 -6.96961659472898)",intersection_edge_143,intersection_node_94,intersection_node_54,false,5,20,15,true,false,false
+"LINESTRING (107.628880560161 -6.97028260394456,107.62884957662 -6.97089644558487)",intersection_edge_128,intersection_node_100,intersection_node_99,false,5,20,15,true,false,false
+"LINESTRING (107.628880560161 -6.97028260394456,107.6288170668 -6.97027633741626)",intersection_edge_129,intersection_node_100,intersection_node_95,false,5,20,15,true,false,false
+"LINESTRING (107.628880560161 -6.97028260394456,107.629164196432 -6.97029483458919)",intersection_edge_130,intersection_node_100,lapangan_bola_asrama,false,5,20,15,true,false,false
+"LINESTRING (107.628880560161 -6.97028260394456,107.628889428561 -6.96995905430177)",intersection_edge_131,intersection_node_100,intersection_node_102,false,5,20,15,true,false,false
+"LINESTRING (107.628804877336 -6.96995449393165,107.628516740545 -6.96994560238766)",intersection_edge_140,intersection_node_96,intersection_node_59,false,5,20,15,true,false,false
+"LINESTRING (107.628894683243 -6.96970101194355,107.628895079372 -6.96966531858215)",intersection_edge_134,intersection_node_101,intersection_node_35,false,5,20,15,true,false,false
+"LINESTRING (107.628894683243 -6.96970101194355,107.628951095518 -6.96970170598124)",intersection_edge_135,intersection_node_101,mushola_depan_tult,false,5,20,15,true,false,false
+"LINESTRING (107.628161273618 -6.97085710705478,107.627869886797 -6.97084534231228)",intersection_edge_144,intersection_node_105,intersection_node_61,false,5,20,15,true,true,false
+"LINESTRING (107.628185461213 -6.96993234216281,107.627893589768 -6.96991664392976)",intersection_edge_141,intersection_node_55,intersection_node_57,false,5,20,15,true,false,false
+"LINESTRING (107.628161273618 -6.97085710705478,107.62815899028 -6.97118841424579)",intersection_edge_145,intersection_node_105,intersection_node_41,false,5,20,15,true,true,false
+"LINESTRING (107.628714031904 -6.97112862961056,107.628689013333 -6.97112954937424)",intersection_edge_147,pos_satpam_asrama_putra,intersection_node_69,false,5,20,15,true,false,false
+"LINESTRING (107.628473323905 -6.97087888590222,107.628697495567 -6.97088814470308)",intersection_edge_148,intersection_node_60,intersection_node_109,false,5,20,15,true,false,false
+"LINESTRING (107.628835087058 -6.97122618360184,107.62877898153 -6.97122157683418)",intersection_edge_151,intersection_node_20,intersection_node_70,false,5,20,15,true,false,false
+"LINESTRING (107.62877898153 -6.97122157683418,107.628583354786 -6.97120624679269)",intersection_edge_153,intersection_node_70,intersection_node_39,false,5,20,15,true,true,false
+"LINESTRING (107.628173463082 -6.97057761175608,107.628161273618 -6.97085710705478)",intersection_edge_158,intersection_node_50,intersection_node_105,false,5,20,15,true,true,false
+"LINESTRING (107.632567194937 -6.97397199225799,107.632591034413 -6.97400467820938)",intersection_edge_462,intersection_node_312,gate_3,true,5,20,15,true,false,true
+"LINESTRING (107.632591034413 -6.97400467820938,107.632567194937 -6.97404112520843)",intersection_edge_463,gate_3,intersection_node_313,true,5,20,15,true,false,true
+"LINESTRING (107.631386109554 -6.9739990647477,107.631380135902 -6.97391671358333)",intersection_edge_161,intersection_node_117,harmony_cafe,false,5,20,15,true,false,false
+"LINESTRING (107.631852291343 -6.9742437031982,107.631623698947 -6.9742452874638,107.631623698947 -6.9742452874638)",intersection_edge_162,taman_calisthenics_cacuk,intersection_node_118,false,5,20,15,true,false,false
+"LINESTRING (107.631852291343 -6.9742437031982,107.632153887087 -6.97446809666067)",intersection_edge_163,taman_calisthenics_cacuk,lapangan_bola_cacuk,false,5,20,15,true,false,false
+"LINESTRING (107.631623689358 -6.97446527217273,107.632153887087 -6.97446809666067)",intersection_edge_164,intersection_node_119,lapangan_bola_cacuk,false,5,20,15,true,false,false
+"LINESTRING (107.631623689358 -6.97446527217273,107.631445430007 -6.97446501704563)",intersection_edge_165,intersection_node_119,intersection_node_120,false,5,20,15,true,false,false
+"LINESTRING (107.631623698947 -6.9742452874638,107.631424392871 -6.97425881249015)",intersection_edge_166,intersection_node_118,intersection_node_121,false,5,20,15,true,false,false
+"LINESTRING (107.631445430007 -6.97446501704563,107.631247728059 -6.9743772393807)",intersection_edge_167,intersection_node_120,pemasaran_dan_admisi,false,5,20,15,true,false,false
+"LINESTRING (107.631445430007 -6.97446501704563,107.631252151316 -6.97446632213746)",intersection_edge_168,intersection_node_120,intersection_node_122,false,5,20,15,true,false,false
+"LINESTRING (107.631424392871 -6.97425881249015,107.631245577211 -6.97426142267496)",intersection_edge_169,intersection_node_121,intersection_node_123,false,5,20,15,true,false,false
+"LINESTRING (107.631247728059 -6.9743772393807,107.631247728059 -6.9743772393807,107.631252151316 -6.97446632213746)",intersection_edge_170,pemasaran_dan_admisi,intersection_node_122,false,5,20,15,true,false,false
+"LINESTRING (107.631245577211 -6.97426142267496,107.631247728059 -6.9743772393807)",intersection_edge_171,intersection_node_123,pemasaran_dan_admisi,false,5,20,15,true,false,false
+"LINESTRING (107.631424392871 -6.97425881249015,107.631247728059 -6.9743772393807)",intersection_edge_172,intersection_node_121,pemasaran_dan_admisi,false,5,20,15,true,false,false
+"LINESTRING (107.631252151316 -6.97446632213746,107.631068092887 -6.97446705967851)",intersection_edge_173,intersection_node_122,intersection_node_124,false,5,20,15,true,false,false
+"LINESTRING (107.631066979394 -6.97437716851121,107.631066979394 -6.97437716851121,107.631068092887 -6.97446705967851)",intersection_edge_174,graha_wiyata_cacuk_b,intersection_node_124,false,5,20,15,true,false,false
+"LINESTRING (107.631066979394 -6.97437716851121,107.63106354972 -6.9742686394554)",intersection_edge_175,graha_wiyata_cacuk_b,intersection_node_125,false,5,20,15,true,false,false
+"LINESTRING (107.631245577211 -6.97426142267496,107.63106354972 -6.9742686394554)",intersection_edge_176,intersection_node_123,intersection_node_125,false,5,20,15,true,false,false
+"LINESTRING (107.631068092887 -6.97446705967851,107.630832063076 -6.97447552934022)",intersection_edge_177,intersection_node_124,eprt_room,false,5,20,15,true,false,false
+"LINESTRING (107.63086084874 -6.97425609126269,107.63086084874 -6.97425609126269,107.63106354972 -6.9742686394554)",intersection_edge_178,lac,intersection_node_125,false,5,20,15,true,false,false
+"LINESTRING (107.629091789281 -6.96956347080406,107.629217632143 -6.96957066395356)",intersection_edge_454,intersection_node_248,parkiran_motor_tult,false,5,20,15,true,true,false
+"LINESTRING (107.631622330485 -6.9747639601571,107.631432226728 -6.97475382672226)",intersection_edge_180,intersection_node_131,intersection_node_129,false,5,20,15,true,false,false
+"LINESTRING (107.631628353832 -6.97497441289327,107.631443244818 -6.9749780260071)",intersection_edge_181,intersection_node_132,intersection_node_130,false,5,20,15,true,false,false
+"LINESTRING (107.631443244818 -6.9749780260071,107.631076542995 -6.97498548830328)",intersection_edge_182,intersection_node_130,intersection_node_127,false,5,20,15,true,false,false
+"LINESTRING (107.631432226728 -6.97475382672226,107.631073913353 -6.97475318215702)",intersection_edge_183,intersection_node_129,intersection_node_126,false,5,20,15,true,false,false
+"LINESTRING (107.631076542995 -6.97498548830328,107.631080784307 -6.97486484441263)",intersection_edge_184,intersection_node_127,graha_wiyata_cacuk_a,false,5,20,15,true,false,false
+"LINESTRING (107.631080784307 -6.97486484441263,107.631073913353 -6.97475318215702)",intersection_edge_185,graha_wiyata_cacuk_a,intersection_node_126,false,5,20,15,true,false,false
+"LINESTRING (107.631073913353 -6.97475318215702,107.631072598532 -6.97462397812693)",intersection_edge_186,intersection_node_126,intersection_node_128,false,5,20,15,true,false,false
+"LINESTRING (107.631072598532 -6.97462397812693,107.631068092887 -6.97446705967851)",intersection_edge_187,intersection_node_128,intersection_node_124,false,5,20,15,true,false,false
+"LINESTRING (107.634043481714 -6.97254483495673,107.634043481714 -6.97254483495673,107.633968403072 -6.97248316892884)",intersection_edge_188,bundaran_telu,intersection_node_170,false,5,20,15,true,false,false
+"LINESTRING (107.633966526682 -6.97260423224902,107.634043481714 -6.97254483495673)",intersection_edge_189,intersection_node_173,bundaran_telu,false,5,20,15,true,false,false
+"LINESTRING (107.634049087824 -6.97264148249509,107.634043481714 -6.97254483495673)",intersection_edge_190,intersection_node_174,bundaran_telu,false,5,20,15,true,false,false
+"LINESTRING (107.634139154523 -6.97254649436176,107.634043481714 -6.97254483495673)",intersection_edge_191,intersection_node_172,bundaran_telu,false,5,20,15,true,false,false
+"LINESTRING (107.634013436422 -6.97243288107896,107.634043481714 -6.97254483495673)",intersection_edge_192,intersection_node_171,bundaran_telu,false,5,20,15,true,false,false
+"LINESTRING (107.633555368672 -6.9731114630524,107.633560105908 -6.97256294382769)",intersection_edge_193,intersection_node_168,intersection_node_177,false,5,20,15,true,false,false
+"LINESTRING (107.633560105908 -6.97256294382769,107.633573657757 -6.97216490032647)",intersection_edge_194,intersection_node_177,intersection_node_167,false,5,20,15,true,false,false
+"LINESTRING (107.633560105908 -6.97256294382769,107.633560105908 -6.97256294382769,107.633717276476 -6.97256266884314)",intersection_edge_195,intersection_node_177,tugu_telkom_university,false,5,20,15,true,false,false
+"LINESTRING (107.633432801368 -6.97209557699639,107.633413746566 -6.97212396620313)",intersection_edge_196,intersection_node_1,intersection_node_178,false,5,20,15,true,true,false
+"LINESTRING (107.633413746566 -6.97212396620313,107.632678199137 -6.97161075473996)",intersection_edge_197,intersection_node_178,parkiran_motor_fks_fpb,false,5,20,15,true,true,false
+"LINESTRING (107.633413746566 -6.97212396620313,107.633168137481 -6.97242806257756)",intersection_edge_198,intersection_node_178,parkiran_mobil_fks,false,5,20,15,true,false,false
+"LINESTRING (107.632014563227 -6.97164307872642,107.631962056187 -6.97170974233026)",intersection_edge_199,intersection_node_188,parkiran_mobil_feb,false,5,20,15,true,true,true
+"LINESTRING (107.632225201935 -6.97199578968637,107.632423974973 -6.97174724941176)",intersection_edge_200,intersection_node_187,gedung_manterawu,false,5,20,15,true,false,false
+"LINESTRING (107.630625790745 -6.97136553563369,107.630625790745 -6.97136553563369,107.630439642873 -6.97144006654801)",intersection_edge_202,intersection_node_15,pos_satpam_parkiran_motor_gku,false,5,20,15,true,true,false
+"LINESTRING (107.630439642873 -6.97144006654801,107.629763570752 -6.97166503333361)",intersection_edge_203,pos_satpam_parkiran_motor_gku,parkiran_motor_gku,false,5,20,15,true,false,true
+"LINESTRING (107.629763570752 -6.97166503333361,107.628965778266 -6.97163146545313)",intersection_edge_204,parkiran_motor_gku,intersection_node_33,false,5,20,15,true,false,false
+"LINESTRING (107.629763570752 -6.97166503333361,107.628966997212 -6.97154193032875)",intersection_edge_205,parkiran_motor_gku,intersection_node_32,false,5,20,15,true,false,false
+"LINESTRING (107.629763570752 -6.97166503333361,107.628979970044 -6.97130982302)",intersection_edge_206,parkiran_motor_gku,intersection_node_16,false,5,20,15,true,false,false
+"LINESTRING (107.629763570752 -6.97166503333361,107.628982765929 -6.97185919090893)",intersection_edge_207,parkiran_motor_gku,intersection_node_166,false,5,20,15,true,false,false
+"LINESTRING (107.629763570752 -6.97166503333361,107.629024294379 -6.97204231212926)",intersection_edge_208,parkiran_motor_gku,intersection_node_153,false,5,20,15,true,false,false
+"LINESTRING (107.631480444076 -6.9715025271333,107.631182079373 -6.97191540716303)",intersection_edge_209,intersection_node_192,intersection_node_196,false,5,20,15,true,false,false
+"LINESTRING (107.631182079373 -6.97191540716303,107.630869118971 -6.97210996980596)",intersection_edge_210,intersection_node_196,intersection_node_197,false,5,20,15,true,false,false
+"LINESTRING (107.630869118971 -6.97210996980596,107.630668817942 -6.97192112477939)",intersection_edge_211,intersection_node_197,intersection_node_198,false,5,20,15,true,false,false
+"LINESTRING (107.630668817942 -6.97192112477939,107.630347829461 -6.97185719656958)",intersection_edge_212,intersection_node_198,intersection_node_194,false,5,20,15,true,false,false
+"LINESTRING (107.630668817942 -6.97192112477939,107.630454884148 -6.97171999607437)",intersection_edge_213,intersection_node_198,intersection_node_195,false,5,20,15,true,false,false
+"LINESTRING (107.631189021955 -6.97124893201447,107.631344400315 -6.97097309809061)",intersection_edge_214,intersection_node_199,lapangan_depan_tuch,false,5,20,15,true,true,false
+"LINESTRING (107.631070994163 -6.97143133822978,107.631070994163 -6.97143133822978,107.631189021955 -6.97124893201447)",intersection_edge_215,tuch,intersection_node_199,false,5,20,15,true,false,false
+"LINESTRING (107.630881939133 -6.97104228110562,107.631344400315 -6.97097309809061)",intersection_edge_216,intersection_node_14,lapangan_depan_tuch,false,5,20,15,true,false,false
+"LINESTRING (107.631344400315 -6.97097309809061,107.631813125021 -6.97093183118054)",intersection_edge_217,lapangan_depan_tuch,intersection_node_4,false,5,20,15,true,false,false
+"LINESTRING (107.631344400315 -6.97097309809061,107.631344400315 -6.97097309809061,107.63144754105 -6.97145144997083)",intersection_edge_218,lapangan_depan_tuch,intersection_node_5,false,5,20,15,true,false,false
+"LINESTRING (107.631344400315 -6.97097309809061,107.631223196939 -6.97054718564539)",intersection_edge_219,lapangan_depan_tuch,intersection_node_107,false,5,20,15,true,false,false
+"LINESTRING (107.631561198887 -6.97225563853965,107.631513544504 -6.97219629627039)",intersection_edge_220,intersection_node_203,taman_fik,false,5,20,15,true,false,false
+"LINESTRING (107.631388247085 -6.97207538203219,107.631513544504 -6.97219629627039)",intersection_edge_221,intersection_node_202,taman_fik,false,5,20,15,true,false,false
+"LINESTRING (107.631792623758 -6.97197417523207,107.631732002897 -6.97191263386103)",intersection_edge_222,intersection_node_204,parkiran_mobil_fik,false,5,20,15,true,false,true
+"LINESTRING (107.631623164623 -6.9718159286824,107.631732002897 -6.97191263386103)",intersection_edge_223,intersection_node_205,parkiran_mobil_fik,false,5,20,15,true,false,false
+"LINESTRING (107.632793611268 -6.97298083919749,107.632881179735 -6.97288608324339)",intersection_edge_224,intersection_node_208,intersection_node_211,false,5,20,15,true,false,true
+"LINESTRING (107.632881179735 -6.97288608324339,107.633022207779 -6.97302231460445)",intersection_edge_225,intersection_node_211,parkiran_mobil_fit,false,5,20,15,true,false,true
+"LINESTRING (107.633160082792 -6.97322304519631,107.633022207779 -6.97302231460445,107.633022207779 -6.97302231460445)",intersection_edge_226,intersection_node_212,parkiran_mobil_fit,false,5,20,15,true,false,true
+"LINESTRING (107.633160082792 -6.97322304519631,107.633045308025 -6.97329502563784)",intersection_edge_227,intersection_node_212,intersection_node_209,false,5,20,15,true,false,true
+"LINESTRING (107.632867093722 -6.9730846251703,107.632583293972 -6.97324493577859)",intersection_edge_228,intersection_node_210,gedung_fit,false,5,20,15,true,false,false
+"LINESTRING (107.632293153849 -6.97248088220474,107.632349367382 -6.97242506695337)",intersection_edge_229,intersection_node_214,parkiran_motor_fit,false,5,20,15,true,true,false
+"LINESTRING (107.632293153849 -6.97248088220474,107.632115088826 -6.97229223750033)",intersection_edge_230,intersection_node_214,intersection_node_213,false,5,20,15,true,false,false
+"LINESTRING (107.632115088826 -6.97229223750033,107.631926304286 -6.97210525389892)",intersection_edge_231,intersection_node_213,lapangan_basket,false,5,20,15,true,false,false
+"LINESTRING (107.629898272248 -6.97209226608267,107.629898272248 -6.97209226608267,107.629763570752 -6.97166503333361)",intersection_edge_232,intersection_node_215,parkiran_motor_gku,false,5,20,15,true,false,false
+"LINESTRING (107.629763570752 -6.97166503333361,107.62936217964 -6.97205602003777)",intersection_edge_233,parkiran_motor_gku,intersection_node_216,false,5,20,15,true,false,false
+"LINESTRING (107.629763570752 -6.97166503333361,107.630221893003 -6.97210868863621)",intersection_edge_234,parkiran_motor_gku,intersection_node_154,false,5,20,15,true,false,false
+"LINESTRING (107.629763570752 -6.97166503333361,107.630347829461 -6.97185719656958)",intersection_edge_235,parkiran_motor_gku,intersection_node_194,false,5,20,15,true,false,false
+"LINESTRING (107.629763570752 -6.97166503333361,107.630454884148 -6.97171999607437)",intersection_edge_236,parkiran_motor_gku,intersection_node_195,false,5,20,15,true,false,false
+"LINESTRING (107.629013655812 -6.97239984002151,107.62869280608 -6.97239107117432)",intersection_edge_237,intersection_node_149,intersection_node_217,false,5,20,15,true,false,false
+"LINESTRING (107.62869280608 -6.97239107117432,107.628685632198 -6.97252304251319)",intersection_edge_238,intersection_node_217,asrama_putri_e,false,5,20,15,true,false,false
+"LINESTRING (107.628699825363 -6.97212959438382,107.628699825363 -6.97212959438382,107.62869280608 -6.97239107117432)",intersection_edge_239,asrama_putri_f,intersection_node_217,false,5,20,15,true,false,false
+"LINESTRING (107.629186912466 -6.97314355750554,107.628753511451 -6.97313251646193)",intersection_edge_240,intersection_node_147,intersection_node_218,false,5,20,15,true,false,false
+"LINESTRING (107.628753511451 -6.97313251646193,107.628746193332 -6.972892559843)",intersection_edge_241,intersection_node_218,asrama_putri_d,false,5,20,15,true,false,false
+"LINESTRING (107.629186074501 -6.97352857633535,107.628824159395 -6.97352290592021)",intersection_edge_242,intersection_node_146,intersection_node_219,false,5,20,15,true,false,false
+"LINESTRING (107.628824159395 -6.97352290592021,107.628811378534 -6.9732827584092)",intersection_edge_243,intersection_node_219,asrama_putri_c,false,5,20,15,true,false,false
+"LINESTRING (107.628824159395 -6.97352290592021,107.628739898421 -6.97351898540572)",intersection_edge_244,intersection_node_219,intersection_node_220,false,5,20,15,true,false,false
+"LINESTRING (107.628739898421 -6.97351898540572,107.628745607779 -6.97367318360576)",intersection_edge_245,intersection_node_220,asrama_putri_b,false,5,20,15,true,false,false
+"LINESTRING (107.629042093727 -6.97427588786618,107.628706918149 -6.97428328908507)",intersection_edge_246,intersection_node_144,intersection_node_221,false,5,20,15,true,false,false
+"LINESTRING (107.628706918149 -6.97428328908507,107.628706918149 -6.97428328908507,107.628707066797 -6.97405543180997)",intersection_edge_247,intersection_node_221,asrama_putri_a,false,5,20,15,true,false,false
+"LINESTRING (107.628753511451 -6.97313251646193,107.628429535837 -6.97316608243147)",intersection_edge_248,intersection_node_218,intersection_node_225,false,5,20,15,true,false,false
+"LINESTRING (107.628429535837 -6.97316608243147,107.628387380303 -6.97351422200513)",intersection_edge_249,intersection_node_225,intersection_node_224,false,5,20,15,true,false,false
+"LINESTRING (107.628387380303 -6.97351422200513,107.628739898421 -6.97351898540572)",intersection_edge_250,intersection_node_224,intersection_node_220,false,5,20,15,true,false,false
+"LINESTRING (107.628387380303 -6.97351422200513,107.628387380303 -6.97381717017358)",intersection_edge_251,intersection_node_224,intersection_node_223,false,5,20,15,true,false,false
+"LINESTRING (107.628387380303 -6.97381717017358,107.628365459426 -6.97401801968001)",intersection_edge_252,intersection_node_223,intersection_node_226,false,5,20,15,true,false,false
+"LINESTRING (107.628365459426 -6.97401801968001,107.628367145647 -6.97414187683271)",intersection_edge_253,intersection_node_226,intersection_node_222,false,5,20,15,true,false,false
+"LINESTRING (107.628230063304 -6.97396833622484,107.628230063304 -6.97396833622484,107.628365459426 -6.97401801968001)",intersection_edge_254,laundry_asrama_putri,intersection_node_226,false,5,20,15,true,false,false
+"LINESTRING (107.628230063304 -6.97396833622484,107.628117710214 -6.97397327081933)",intersection_edge_255,laundry_asrama_putri,warprint,false,5,20,15,true,false,false
+"LINESTRING (107.629035750676 -6.97444262689775,107.628901498292 -6.97447529411575)",intersection_edge_256,intersection_node_227,tmart,false,5,20,15,true,false,false
+"LINESTRING (107.629035750676 -6.97444262689775,107.628899184166 -6.97441478856556)",intersection_edge_257,intersection_node_227,kantin_asrama_putri_1,false,5,20,15,true,false,false
+"LINESTRING (107.628899184166 -6.97441478856556,107.628901498292 -6.97447529411575)",intersection_edge_258,kantin_asrama_putri_1,tmart,false,5,20,15,true,false,false
+"LINESTRING (107.629042093727 -6.97427588786618,107.629236415757 -6.97422281180961)",intersection_edge_259,intersection_node_144,kantin_asrama_putri_2,false,5,20,15,true,false,false
+"LINESTRING (107.629220713624 -6.97394020306518,107.629236415757 -6.97422281180961)",intersection_edge_260,intersection_node_145,kantin_asrama_putri_2,false,5,20,15,true,false,false
+"LINESTRING (107.629220713624 -6.97394020306518,107.62951269801 -6.97395699488455)",intersection_edge_261,intersection_node_145,intersection_node_231,false,5,20,15,true,false,false
+"LINESTRING (107.62951269801 -6.97395699488455,107.629509325567 -6.97426161651129)",intersection_edge_262,intersection_node_231,pepeng,false,5,20,15,true,false,false
+"LINESTRING (107.629617243733 -6.97395866863029,107.629617243733 -6.97395866863029,107.62951269801 -6.97395699488455)",intersection_edge_263,intersection_node_230,intersection_node_231,false,5,20,15,true,false,false
+"LINESTRING (107.629617243733 -6.97395866863029,107.629613871291 -6.97410763197748)",intersection_edge_264,intersection_node_230,pendopo,false,5,20,15,true,false,false
+"LINESTRING (107.629509325567 -6.97426161651129,107.629613871291 -6.97410763197748)",intersection_edge_265,pepeng,pendopo,false,5,20,15,true,false,false
+"LINESTRING (107.629617243733 -6.97395866863029,107.629822962738 -6.97395866863029)",intersection_edge_266,intersection_node_230,intersection_node_232,false,5,20,15,true,false,false
+"LINESTRING (107.629822962738 -6.97395866863029,107.629878608043 -6.97385322263679,107.629919686943 -6.97383562534384)",intersection_edge_267,intersection_node_232,intersection_node_160,false,5,20,15,true,false,false
+"LINESTRING (107.629919686943 -6.97383562534384,107.629892097814 -6.97394527866417,107.629892097814 -6.97403063969159,107.629903901363 -6.97407917830808)",intersection_edge_269,intersection_node_160,intersection_node_233,false,5,20,15,true,false,false
+"LINESTRING (107.629822962738 -6.97395866863029,107.629856687165 -6.97406913583611,107.629903901363 -6.97407917830808)",intersection_edge_270,intersection_node_232,intersection_node_233,false,5,20,15,true,false,false
+"LINESTRING (107.630675853154 -6.97401831734941,107.630675853154 -6.97401831734941,107.630290358844 -6.97397605937554)",intersection_edge_271,intersection_node_116,gedung_bangkit,false,5,20,15,true,false,false
+"LINESTRING (107.630675853154 -6.97401831734941,107.630668839359 -6.97387658528925,107.630606428655 -6.97375055117132,107.630511736554 -6.97365442343147,107.630393371427 -6.97359888295056,107.630294375138 -6.97358606591557,107.63019238223 -6.97359474686845)",intersection_edge_272,intersection_node_116,intersection_node_159,false,5,20,15,true,false,false
+"LINESTRING (107.629903901363 -6.97407917830808,107.629935452266 -6.97416219434601,107.629978233933 -6.97422714100503,107.630031081875 -6.97427709996739,107.630102804082 -6.97432331200282)",intersection_edge_273,intersection_node_233,intersection_node_234,false,5,20,15,true,false,false
+"LINESTRING (107.630102804082 -6.97432331200282,107.630200074553 -6.97422215207352)",intersection_edge_274,intersection_node_234,rabbit_park,false,5,20,15,true,false,false
+"LINESTRING (107.630102804082 -6.97432331200282,107.630102804082 -6.97432331200282,107.630166976583 -6.97435203840093,107.630258962507 -6.97437048264806)",intersection_edge_275,intersection_node_234,intersection_node_228,false,5,20,15,true,false,false
+"LINESTRING (107.630353527446 -6.97436185136415,107.630258962507 -6.97437048264806,107.630258962507 -6.97437048264806)",intersection_edge_276,intersection_node_229,intersection_node_228,false,5,20,15,true,false,false
+"LINESTRING (107.631050629395 -6.97400859306688,107.63106354972 -6.9742686394554)",intersection_edge_278,intersection_node_235,intersection_node_125,false,5,20,15,true,false,false
+"LINESTRING (107.63019238223 -6.97359474686845,107.630203396926 -6.97324732390685)",intersection_edge_279,intersection_node_159,intersection_node_237,false,5,20,15,true,false,false
+"LINESTRING (107.629640380606 -6.97290593180719,107.629640380606 -6.97290593180719,107.6296256145 -6.97256125797624)",intersection_edge_280,gku,intersection_node_240,false,5,20,15,true,false,false
+"LINESTRING (107.629905358622 -6.97291450293529,107.629640380606 -6.97290593180719)",intersection_edge_281,intersection_node_239,gku,false,5,20,15,true,false,false
+"LINESTRING (107.629191032501 -6.97290757715714,107.629640380606 -6.97290593180719)",intersection_edge_282,intersection_node_164,gku,false,5,20,15,true,false,false
+"LINESTRING (107.630217333617 -6.9725612554784,107.62987722626 -6.9725708681849)",intersection_edge_283,intersection_node_156,intersection_node_241,false,5,20,15,true,false,false
+"LINESTRING (107.62987722626 -6.9725708681849,107.6296256145 -6.97256125797624)",intersection_edge_284,intersection_node_241,intersection_node_240,false,5,20,15,true,false,false
+"LINESTRING (107.6296256145 -6.97256125797624,107.629242822363 -6.9725708681849)",intersection_edge_285,intersection_node_240,intersection_node_242,false,5,20,15,true,false,false
+"LINESTRING (107.629006056836 -6.97256427258922,107.629242822363 -6.9725708681849,107.629242822363 -6.9725708681849)",intersection_edge_286,intersection_node_148,intersection_node_242,false,5,20,15,true,false,false
+"LINESTRING (107.62987722626 -6.9725708681849,107.629640380606 -6.97290593180719)",intersection_edge_287,intersection_node_241,gku,false,5,20,15,true,false,false
+"LINESTRING (107.629242822363 -6.9725708681849,107.629640380606 -6.97290593180719)",intersection_edge_288,intersection_node_242,gku,false,5,20,15,true,false,false
+"LINESTRING (107.629869418212 -6.9723964863437,107.62987722626 -6.9725708681849)",intersection_edge_289,intersection_node_243,intersection_node_241,false,5,20,15,true,false,false
+"LINESTRING (107.629392084819 -6.97240134857744,107.629242822363 -6.9725708681849)",intersection_edge_290,intersection_node_150,intersection_node_242,false,5,20,15,true,false,false
+"LINESTRING (107.6296256145 -6.97256125797624,107.629392084819 -6.97240134857744,107.629392084819 -6.97240134857744)",intersection_edge_291,intersection_node_240,intersection_node_150,false,5,20,15,true,false,false
+"LINESTRING (107.6296256145 -6.97256125797624,107.629869418212 -6.9723964863437)",intersection_edge_292,intersection_node_240,intersection_node_243,false,5,20,15,true,false,false
+"LINESTRING (107.629013655812 -6.97239984002151,107.629242822363 -6.9725708681849)",intersection_edge_293,intersection_node_149,intersection_node_242,false,5,20,15,true,false,false
+"LINESTRING (107.629869418212 -6.9723964863437,107.630217333617 -6.9725612554784)",intersection_edge_294,intersection_node_243,intersection_node_156,false,5,20,15,true,false,false
+"LINESTRING (107.62987722626 -6.9725708681849,107.630222059922 -6.97239365230942)",intersection_edge_295,intersection_node_241,intersection_node_155,false,5,20,15,true,false,false
+"LINESTRING (107.629006056836 -6.97256427258922,107.629392084819 -6.97240134857744)",intersection_edge_296,intersection_node_148,intersection_node_150,false,5,20,15,true,false,false
+"LINESTRING (107.629964425672 -6.973250535376,107.629970060401 -6.97352939715811)",intersection_edge_297,intersection_node_244,taman_calisthenics,false,5,20,15,true,false,false
+"LINESTRING (107.629919686943 -6.97383562534384,107.629919686943 -6.97383562534384,107.629945947466 -6.97377704465272,107.629985077785 -6.97372849361713,107.630030729825 -6.97368102148859)",intersection_edge_298,intersection_node_160,intersection_node_245,false,5,20,15,true,false,false
+"LINESTRING (107.630030729825 -6.97368102148859,107.630080729677 -6.97364218065256,107.63019238223 -6.97359474686845,107.63019238223 -6.97359474686845)",intersection_edge_299,intersection_node_245,intersection_node_159,false,5,20,15,true,false,false
+"LINESTRING (107.630030729825 -6.97368102148859,107.629970060401 -6.97352939715811)",intersection_edge_300,intersection_node_245,taman_calisthenics,false,5,20,15,true,false,false
+"LINESTRING (107.628935142107 -6.96936363682025,107.6289311867 -6.96945457120216)",intersection_edge_301,intersection_node_246,pos_satpam_depan_tult,false,5,20,15,true,false,false
+"LINESTRING (107.629101481042 -6.96939792193173,107.629101481042 -6.96939792193173,107.629091789281 -6.96956347080406)",intersection_edge_302,intersection_node_247,intersection_node_248,false,5,20,15,true,true,false
+"LINESTRING (107.629091789281 -6.96956347080406,107.629075896163 -6.96973398082635)",intersection_edge_303,intersection_node_248,cuci_motor_depan_tult,false,5,20,15,true,true,false
+"LINESTRING (107.631628353832 -6.97493016999636,107.631800389079 -6.97493681529814)",intersection_edge_455,intersection_node_133,parkiran_mobil_cacuk,false,5,20,15,true,false,true
+"LINESTRING (107.629164196432 -6.97029483458919,107.629536571554 -6.97027476104656)",intersection_edge_305,lapangan_bola_asrama,intersection_node_250,false,5,20,15,true,false,false
+"LINESTRING (107.629536571554 -6.97027476104656,107.629623351307 -6.97051423236157)",intersection_edge_306,intersection_node_250,kandang_rusa,false,5,20,15,true,false,false
+"LINESTRING (107.629536571554 -6.97027476104656,107.629536571554 -6.97015774732896)",intersection_edge_307,intersection_node_250,intersection_node_249,false,5,20,15,true,false,false
+"LINESTRING (107.629536571554 -6.97015774732896,107.629720137617 -6.97016772437672)",intersection_edge_308,intersection_node_249,intersection_node_252,false,5,20,15,true,false,false
+"LINESTRING (107.629720137617 -6.97016772437672,107.629717334286 -6.97002992391454)",intersection_edge_309,intersection_node_252,marker_space,false,5,20,15,true,false,false
+"LINESTRING (107.629720137617 -6.97016772437672,107.630161164236 -6.97020076340946)",intersection_edge_310,intersection_node_252,intersection_node_251,false,5,20,15,true,false,false
+"LINESTRING (107.630161164236 -6.97020076340946,107.630363251906 -6.97020430330568)",intersection_edge_311,intersection_node_251,intersection_node_254,false,5,20,15,true,false,false
+"LINESTRING (107.630688699964 -6.9705676032371,107.630734937861 -6.970581945779)",intersection_edge_320,intersection_node_260,intersection_node_261,false,5,20,15,true,false,false
+"LINESTRING (107.630319770462 -6.97045558668838,107.630688699964 -6.9705676032371,107.630688699964 -6.9705676032371)",intersection_edge_321,bandung_techno_park,intersection_node_260,false,5,20,15,true,false,false
+"LINESTRING (107.630954689832 -6.97094224609049,107.630838973128 -6.97083867720473)",intersection_edge_322,intersection_node_255,intersection_node_256,false,5,20,15,true,true,true
+"LINESTRING (107.630838973128 -6.97083867720473,107.630983466554 -6.97066800102117)",intersection_edge_323,intersection_node_256,intersection_node_258,false,5,20,15,true,false,true
+"LINESTRING (107.630983466554 -6.97066800102117,107.63089445472 -6.97057196998958)",intersection_edge_324,intersection_node_258,parkiran_mobil_btp,false,5,20,15,true,false,true
+"LINESTRING (107.630838973128 -6.97083867720473,107.630665581016 -6.97066943527507)",intersection_edge_325,intersection_node_256,intersection_node_257,false,5,20,15,true,true,true
+"LINESTRING (107.630665581016 -6.97066943527507,107.630734937861 -6.970581945779)",intersection_edge_326,intersection_node_257,intersection_node_261,false,5,20,15,true,true,true
+"LINESTRING (107.630734937861 -6.970581945779,107.630807184574 -6.97050306179312)",intersection_edge_327,intersection_node_261,intersection_node_259,false,5,20,15,true,true,true
+"LINESTRING (107.630807184574 -6.97050306179312,107.63089445472 -6.97057196998958)",intersection_edge_328,intersection_node_259,parkiran_mobil_btp,false,5,20,15,true,false,true
+"LINESTRING (107.630807184574 -6.97050306179312,107.630954522272 -6.97032871171575)",intersection_edge_329,intersection_node_259,intersection_node_106,false,5,20,15,true,true,true
+"LINESTRING (107.630693399546 -6.97034389096481,107.630807184574 -6.97050306179312,107.630807184574 -6.97050306179312)",intersection_edge_330,parkiran_motor_btp,intersection_node_259,false,5,20,15,true,true,true
+"LINESTRING (107.630693399546 -6.97034389096481,107.630557018318 -6.9703329195171)",intersection_edge_331,parkiran_motor_btp,intersection_node_253,false,5,20,15,true,false,false
+"LINESTRING (107.630363251906 -6.97020430330568,107.630557018318 -6.9703329195171,107.630557018318 -6.9703329195171)",intersection_edge_332,intersection_node_254,intersection_node_253,false,5,20,15,true,false,false
+"LINESTRING (107.630220635106 -6.97292251112428,107.630523188117 -6.97292948313295)",intersection_edge_333,intersection_node_267,intersection_node_264,false,5,20,15,true,false,false
+"LINESTRING (107.630523188117 -6.97292948313295,107.630520870532 -6.97285612445929)",intersection_edge_334,intersection_node_264,mushola_danau_lakilaki,false,5,20,15,true,false,false
+"LINESTRING (107.630523188117 -6.97292948313295,107.630515206002 -6.97299412348424)",intersection_edge_335,intersection_node_264,muhsola_danau_perempuan,false,5,20,15,true,false,false
+"LINESTRING (107.630523188117 -6.97292948313295,107.630905423628 -6.97293957378052)",intersection_edge_336,intersection_node_264,intersection_node_265,false,5,20,15,true,false,false
+"LINESTRING (107.630905423628 -6.97293957378052,107.630933710165 -6.97288185021998,107.63097315687 -6.97283516547364,107.631032326929 -6.97280655223971,107.631291725475 -6.9728335775714)",intersection_edge_337,intersection_node_265,intersection_node_266,false,5,20,15,true,false,false
+"LINESTRING (107.631291725475 -6.9728335775714,107.631285035268 -6.97302111773539)",intersection_edge_338,intersection_node_266,danau_galau,false,5,20,15,true,false,false
+"LINESTRING (107.631285035268 -6.97302111773539,107.631285625972 -6.97328467379638)",intersection_edge_339,danau_galau,intersection_node_262,false,5,20,15,true,false,false
+"LINESTRING (107.630905423628 -6.97293957378052,107.630888194736 -6.97300985675864,107.63091095245 -6.97309720237671,107.630953433518 -6.97316497051745,107.631021706662 -6.973192077771,107.631117289063 -6.97319810160491,107.631285625972 -6.97328467379638)",intersection_edge_340,intersection_node_265,intersection_node_262,false,5,20,15,true,false,false
+"LINESTRING (107.631291725475 -6.9728335775714,107.631409117462 -6.97241901020746,107.631409117462 -6.97241901020746)",intersection_edge_341,intersection_node_266,intersection_node_201,false,5,20,15,true,false,false
+"LINESTRING (107.631291725475 -6.9728335775714,107.631420725259 -6.97280504627999,107.631581546442 -6.97274029000707,107.631658922672 -6.97272221848746,107.631803054865 -6.97275986748588)",intersection_edge_342,intersection_node_266,intersection_node_268,false,5,20,15,true,false,false
+"LINESTRING (107.631803054865 -6.97275986748588,107.63190318881 -6.97251289000106)",intersection_edge_343,intersection_node_268,intersection_node_269,false,5,20,15,true,false,false
+"LINESTRING (107.63190318881 -6.97251289000106,107.631969944773 -6.9724375919615,107.632060975631 -6.97237885948224,107.632101939518 -6.97233970449197,107.632115088826 -6.97229223750033)",intersection_edge_344,intersection_node_269,intersection_node_213,false,5,20,15,true,false,false
+"LINESTRING (107.631803054865 -6.97275986748588,107.631915326257 -6.97283516547364,107.631976013497 -6.97293305283964,107.631991185306 -6.97307310703543,107.631924429343 -6.97319659564644,107.631839467209 -6.97326285781454)",intersection_edge_345,intersection_node_268,intersection_node_263,false,5,20,15,true,false,false
+"LINESTRING (107.631266382076 -6.97400072645692,107.631285625972 -6.97328467379638)",intersection_edge_346,intersection_node_270,intersection_node_262,false,5,20,15,true,false,false
+"LINESTRING (107.631285625972 -6.97328467379638,107.631285625972 -6.97328467379638,107.631371807811 -6.97326344975437,107.631422741283 -6.97324775973975,107.631503532308 -6.9732599630845,107.631582567006 -6.97330180312121,107.631709022523 -6.97331400646454,107.631814402121 -6.97329134311238,107.631839467209 -6.97326285781454)",intersection_edge_347,intersection_node_262,intersection_node_263,false,5,20,15,true,false,false
+"LINESTRING (107.631839467209 -6.97326285781454,107.631839467209 -6.97326285781454,107.631911000086 -6.97368533661691,107.63203921193 -6.97381957326621,107.63201286703 -6.97396426987108)",intersection_edge_348,intersection_node_263,intersection_node_271,false,5,20,15,true,false,false
+"LINESTRING (107.630258962507 -6.97437048264806,107.630270120029 -6.97522975702052)",intersection_edge_349,intersection_node_228,intersection_node_138,false,5,20,15,true,false,false
+"LINESTRING (107.630675853154 -6.97401831734941,107.630683199572 -6.97425107022139)",intersection_edge_351,intersection_node_116,intersection_node_272,false,5,20,15,true,false,false
+"LINESTRING (107.630683199572 -6.97425107022139,107.63070027818 -6.97447144929294)",intersection_edge_352,intersection_node_272,intersection_node_273,false,5,20,15,true,false,false
+"LINESTRING (107.630683199572 -6.97425107022139,107.63086084874 -6.97425609126269)",intersection_edge_353,intersection_node_272,lac,false,5,20,15,true,false,false
+"LINESTRING (107.63070027818 -6.97447144929294,107.630832063076 -6.97447552934022)",intersection_edge_354,intersection_node_273,eprt_room,false,5,20,15,true,false,false
+"LINESTRING (107.63070027818 -6.97447144929294,107.630715221962 -6.9747363278475)",intersection_edge_355,intersection_node_273,intersection_node_274,false,5,20,15,true,false,false
+"LINESTRING (107.630715221962 -6.9747363278475,107.63073230057 -6.97496942085158)",intersection_edge_356,intersection_node_274,intersection_node_275,false,5,20,15,true,false,false
+"LINESTRING (107.63073230057 -6.97496942085158,107.630745109526 -6.97522158497082)",intersection_edge_357,intersection_node_275,intersection_node_276,false,5,20,15,true,false,false
+"LINESTRING (107.630353527446 -6.97436185136415,107.630358706021 -6.97447992540901)",intersection_edge_358,intersection_node_229,intersection_node_278,false,5,20,15,true,false,false
+"LINESTRING (107.630358706021 -6.97447992540901,107.630360840847 -6.97473844687533)",intersection_edge_359,intersection_node_278,intersection_node_279,false,5,20,15,true,false,false
+"LINESTRING (107.630360840847 -6.97473844687533,107.630365110499 -6.97497577793189)",intersection_edge_360,intersection_node_279,intersection_node_280,false,5,20,15,true,false,false
+"LINESTRING (107.630365110499 -6.97497577793189,107.630365110499 -6.97497577793189,107.630383012603 -6.97522909786153)",intersection_edge_361,intersection_node_280,intersection_node_139,false,5,20,15,true,false,false
+"LINESTRING (107.630365110499 -6.97497577793189,107.63073230057 -6.97496942085158)",intersection_edge_362,intersection_node_280,intersection_node_275,false,5,20,15,true,false,false
+"LINESTRING (107.630360840847 -6.97473844687533,107.630715221962 -6.9747363278475)",intersection_edge_363,intersection_node_279,intersection_node_274,false,5,20,15,true,false,false
+"LINESTRING (107.630358706021 -6.97447992540901,107.63070027818 -6.97447144929294)",intersection_edge_364,intersection_node_278,intersection_node_273,false,5,20,15,true,false,false
+"LINESTRING (107.630353527446 -6.97436185136415,107.630395380694 -6.97435305748502,107.630434805773 -6.97433868196553,107.630471012479 -6.97431711868547,107.630520897274 -6.97428916628392,107.630561126947 -6.97425242883933)",intersection_edge_365,intersection_node_229,intersection_node_281,false,5,20,15,true,false,false
+"LINESTRING (107.630561126947 -6.97425242883933,107.630683199572 -6.97425107022139)",intersection_edge_366,intersection_node_281,intersection_node_272,false,5,20,15,true,false,false
+"LINESTRING (107.630561126947 -6.97425242883933,107.630561126947 -6.97425242883933,107.630606988775 -6.97419891994751,107.630634344953 -6.97415259881234,107.630658482757 -6.97409749262832,107.630675853154 -6.97401831734941)",intersection_edge_367,intersection_node_281,intersection_node_116,false,5,20,15,true,false,false
+"LINESTRING (107.631076542995 -6.97498548830328,107.631088816511 -6.97521946594517)",intersection_edge_368,intersection_node_127,intersection_node_277,false,5,20,15,true,false,false
+"LINESTRING (107.631622163338 -6.97528330308134,107.631385685958 -6.97549067474705)",intersection_edge_369,intersection_node_135,pasca_sarjana,false,5,20,15,true,false,false
+"LINESTRING (107.630287385952 -6.97530556029774,107.630318481404 -6.97575013598352)",intersection_edge_370,intersection_node_140,parkiran_mobil_gsg,false,5,20,15,true,false,false
+"LINESTRING (107.630318481404 -6.97575013598352,107.630322086263 -6.97664597555297)",intersection_edge_371,parkiran_mobil_gsg,gedung_serbaguna,false,5,20,15,true,false,false
+"LINESTRING (107.630322086263 -6.97664597555297,107.630321051995 -6.97691982156594)",intersection_edge_372,gedung_serbaguna,student_affairs,false,5,20,15,true,false,false
+"LINESTRING (107.630806812464 -6.97528640347529,107.630817376488 -6.97549796516562)",intersection_edge_373,intersection_node_301,intersection_node_292,false,5,20,15,true,false,false
+"LINESTRING (107.630817376488 -6.97549796516562,107.631385685958 -6.97549067474705)",intersection_edge_374,intersection_node_292,pasca_sarjana,false,5,20,15,true,false,false
+"LINESTRING (107.630817376488 -6.97549796516562,107.630824001285 -6.97581031373768)",intersection_edge_375,intersection_node_292,intersection_node_291,false,5,20,15,true,false,false
+"LINESTRING (107.630662366559 -6.97580247681529,107.630662366559 -6.97580247681529,107.630824001285 -6.97581031373768)",intersection_edge_376,gedung_d,intersection_node_291,false,5,20,15,true,false,false
+"LINESTRING (107.630824001285 -6.97581031373768,107.630834039147 -6.97613781502016)",intersection_edge_377,intersection_node_291,intersection_node_284,false,5,20,15,true,false,false
+"LINESTRING (107.631610599612 -6.97573651305772,107.631369152943 -6.97572862897578)",intersection_edge_378,intersection_node_282,gedung_c,false,5,20,15,true,false,false
+"LINESTRING (107.631594914111 -6.9761436395091,107.630834039147 -6.97613781502016)",intersection_edge_379,intersection_node_283,intersection_node_284,false,5,20,15,true,false,false
+"LINESTRING (107.63158585296 -6.97624924532631,107.631225804412 -6.97624690815037)",intersection_edge_380,intersection_node_293,gedung_manufaktur_fri,false,5,20,15,true,false,false
+"LINESTRING (107.630568026306 -6.97616887896033,107.630834039147 -6.97613781502016,107.630834039147 -6.97613781502016)",intersection_edge_381,intersection_node_285,intersection_node_284,false,5,20,15,true,false,false
+"LINESTRING (107.630568026306 -6.97616887896033,107.630029932028 -6.97614277568916)",intersection_edge_382,intersection_node_285,intersection_node_288,false,5,20,15,true,false,false
+"LINESTRING (107.630029932028 -6.97614277568916,107.630028359188 -6.97656885677539)",intersection_edge_383,intersection_node_288,intersection_node_289,false,5,20,15,true,false,false
+"LINESTRING (107.630568026306 -6.97616887896033,107.630566070329 -6.97717263141782)",intersection_edge_384,intersection_node_285,intersection_node_286,false,5,20,15,true,false,false
+"LINESTRING (107.631579228163 -6.97642021482252,107.631216752785 -6.97640893003723)",intersection_edge_385,intersection_node_294,gedung_e,false,5,20,15,true,false,false
+"LINESTRING (107.63156432237 -6.97675557788375,107.631216752785 -6.97674561968297)",intersection_edge_386,intersection_node_295,gedung_f,false,5,20,15,true,false,false
+"LINESTRING (107.630028359188 -6.97656885677539,107.630065340276 -6.97716292395754)",intersection_edge_387,intersection_node_289,intersection_node_287,false,5,20,15,true,false,false
+"LINESTRING (107.631570947167 -6.97659611606596,107.631780396852 -6.97659861433655)",intersection_edge_388,intersection_node_296,lapangan_tembah_archatel,false,5,20,15,true,false,false
+"LINESTRING (107.63156432237 -6.97675557788375,107.631836437511 -6.97675983462854)",intersection_edge_389,intersection_node_295,parkiran_karyawan,false,5,20,15,true,false,false
+"LINESTRING (107.631431826426 -6.97704162265793,107.631493304649 -6.97709865407235)",intersection_edge_390,intersection_node_297,green_house,false,5,20,15,true,false,false
+"LINESTRING (107.631493304649 -6.97709865407235,107.631517823013 -6.97712387965832)",intersection_edge_391,green_house,saung_alfatih,false,5,20,15,true,false,false
+"LINESTRING (107.630028359188 -6.97656885677539,107.630028359188 -6.97656885677539,107.629323202587 -6.97656672854546)",intersection_edge_392,intersection_node_289,gedung_fakultas_kedokteran,false,5,20,15,true,false,false
+"LINESTRING (107.630398358066 -6.97717806924152,107.630400881267 -6.97725256741857)",intersection_edge_393,intersection_node_298,telkomeduika,false,5,20,15,true,false,false
+"LINESTRING (107.630330946799 -6.97717127697013,107.630321051995 -6.97691982156594)",intersection_edge_394,intersection_node_290,student_affairs,false,5,20,15,true,false,false
+"LINESTRING (107.62982531311 -6.97716491776531,107.629817790208 -6.97740180982646)",intersection_edge_395,intersection_node_299,lapangan_tennis,false,5,20,15,true,false,false
+"LINESTRING (107.629416705036 -6.9771528225215,107.629405074531 -6.97730852693803)",intersection_edge_396,intersection_node_300,student_center,false,5,20,15,true,false,false
+"LINESTRING (107.629591196126 -6.9752927831987,107.62960106781 -6.97548975066068)",intersection_edge_397,intersection_node_302,gedung_fakultas_elektro,false,5,20,15,true,false,false
+"LINESTRING (107.632143266829 -6.97611173685134,107.632106493832 -6.97568164122347)",intersection_edge_398,intersection_node_304,msu,false,5,20,15,true,false,false
+"LINESTRING (107.632106493832 -6.97568164122347,107.631853028374 -6.97527379088025)",intersection_edge_399,msu,intersection_node_136,false,5,20,15,true,false,false
+"LINESTRING (107.632143266829 -6.97611173685134,107.631879356048 -6.97611723222789,107.631873604275 -6.9760715586899,107.631844845409 -6.97604681885496,107.631596721062 -6.97600159297587)",intersection_edge_401,intersection_node_304,intersection_node_305,false,5,20,15,true,false,false
+"LINESTRING (107.631388247085 -6.97207538203219,107.631320076574 -6.97200862344719)",intersection_edge_403,intersection_node_202,gedung_fik,false,5,20,15,true,false,false
+"LINESTRING (107.628706918149 -6.97428328908507,107.628706918149 -6.97428328908507,107.628522211885 -6.97427381299677,107.628522211885 -6.97427381299677,107.628432690781 -6.9742293836362,107.628367145647 -6.97414187683271)",intersection_edge_405,intersection_node_221,intersection_node_222,false,5,20,15,true,false,false
+"LINESTRING (107.627459 -6.9700676,107.62721095709 -6.97004771115326)",intersection_edge_408,parkiran_motor_kantin_asrama_putra,intersection_node_75,false,5,20,15,true,false,false
+"LINESTRING (107.626979062324 -6.97082933188363,107.626990796871 -6.97053166563133)",intersection_edge_413,intersection_node_46,intersection_node_47,false,5,20,15,true,true,false
+"LINESTRING (107.627268514487 -6.97083062608431,107.626979062324 -6.97082933188363)",intersection_edge_410,intersection_node_66,intersection_node_46,false,5,20,15,true,true,false
+"LINESTRING (107.626990796871 -6.97053166563133,107.626989362287 -6.97020013867118)",intersection_edge_414,intersection_node_47,intersection_node_49,false,5,20,15,true,true,false
+"LINESTRING (107.626989362287 -6.97020013867118,107.627287301004 -6.97020183578202)",intersection_edge_415,intersection_node_49,intersection_node_58,false,5,20,15,true,true,false
+"LINESTRING (107.627287301004 -6.97020183578202,107.6275914753 -6.97019957340671)",intersection_edge_416,intersection_node_58,intersection_node_51,false,5,20,15,true,true,false
+"LINESTRING (107.627580845229 -6.97054410921526,107.6275914753 -6.97019957340671)",intersection_edge_417,intersection_node_48,intersection_node_51,false,5,20,15,true,true,false
+"LINESTRING (107.627869886797 -6.97084534231228,107.62757244379 -6.97082602726298)",intersection_edge_418,intersection_node_61,intersection_node_44,false,5,20,15,true,true,false
+"LINESTRING (107.632143266829 -6.97611173685134,107.632142071386 -6.9761881264546)",intersection_edge_456,intersection_node_304,parkiran_motor_gate4,false,5,20,15,true,true,false
+"LINESTRING (107.632142071386 -6.9761881264546,107.631594914111 -6.9761436395091)",intersection_edge_457,parkiran_motor_gate4,intersection_node_283,false,5,20,15,true,false,false
+"LINESTRING (107.632014563227 -6.97164307872642,107.632142262519 -6.97139708260148)",intersection_edge_421,intersection_node_188,gedung_feb,false,5,20,15,true,false,false
+"LINESTRING (107.633182293752 -6.9729800864451,107.633275683803 -6.97288988127223)",intersection_edge_422,intersection_node_306,atm_gate2,false,5,20,15,true,false,false
+"LINESTRING (107.62721095709 -6.97004771115326,107.627115090506 -6.97013537194363)",intersection_edge_423,intersection_node_75,intersection_node_108,false,5,20,15,true,false,false
+"LINESTRING (107.627115090506 -6.97013537194363,107.6270604 -6.9700773)",intersection_edge_424,intersection_node_108,tel-u_mart,false,5,20,15,true,false,false
+"LINESTRING (107.630439642873 -6.97144006654801,107.629763570752 -6.97166503333361)",intersection_edge_425,pos_satpam_parkiran_motor_gku,parkiran_motor_gku,false,5,20,15,true,true,false
+"LINESTRING (107.629398164 -6.97222635605724,107.629625185623 -6.97231102823233)",intersection_edge_426,intersection_node_152,parkiran_mobil_gku,false,5,20,15,true,true,true
+"LINESTRING (107.629392084819 -6.97240134857744,107.629625185623 -6.97231102823233)",intersection_edge_427,intersection_node_150,parkiran_mobil_gku,false,5,20,15,true,true,true
+"LINESTRING (107.630222059922 -6.97239365230942,107.629625185623 -6.97231102823233)",intersection_edge_428,intersection_node_155,parkiran_mobil_gku,false,5,20,15,true,true,true
+"LINESTRING (107.63021973587 -6.97224278511076,107.629625185623 -6.97231102823233)",intersection_edge_429,intersection_node_165,parkiran_mobil_gku,false,5,20,15,true,true,true
+"LINESTRING (107.629898272248 -6.97209226608267,107.629794159242 -6.97223057252087)",intersection_edge_430,intersection_node_215,intersection_node_307,false,5,20,15,true,false,false
+"LINESTRING (107.62936217964 -6.97205602003777,107.629398164 -6.97222635605724)",intersection_edge_431,intersection_node_216,intersection_node_152,false,5,20,15,true,false,false
+"LINESTRING (107.629794159242 -6.97223057252087,107.629786697061 -6.97223412559116,107.629625185623 -6.97231102823233)",intersection_edge_432,intersection_node_307,parkiran_mobil_gku,false,5,20,15,true,false,false
+"LINESTRING (107.629625185623 -6.97231102823233,107.629624504734 -6.9724018156496)",intersection_edge_433,parkiran_mobil_gku,intersection_node_308,false,5,20,15,true,false,false
+"LINESTRING (107.629624504734 -6.9724018156496,107.6296256145 -6.97256125797624)",intersection_edge_434,intersection_node_308,intersection_node_240,false,5,20,15,true,false,false
+"LINESTRING (107.629398164 -6.97222635605724,107.629013655812 -6.97239984002151)",intersection_edge_435,intersection_node_152,intersection_node_149,false,5,20,15,true,false,false
+"LINESTRING (107.629898272248 -6.97209226608267,107.63021973587 -6.97224278511076)",intersection_edge_436,intersection_node_215,intersection_node_165,false,5,20,15,true,false,false
+"LINESTRING (107.629398164 -6.97222635605724,107.629898272248 -6.97209226608267,107.629898272248 -6.97209226608267)",intersection_edge_437,intersection_node_152,intersection_node_215,false,5,20,15,true,false,false
+"LINESTRING (107.629794159242 -6.97223057252087,107.62936217964 -6.97205602003777)",intersection_edge_438,intersection_node_307,intersection_node_216,false,5,20,15,true,false,false
+"LINESTRING (107.629398164 -6.97222635605724,107.629024294379 -6.97204231212926)",intersection_edge_439,intersection_node_152,intersection_node_153,false,5,20,15,true,false,false
+"LINESTRING (107.62936217964 -6.97205602003777,107.629019734993 -6.97221579616168)",intersection_edge_440,intersection_node_216,intersection_node_151,false,5,20,15,true,false,false
+"LINESTRING (107.630221893003 -6.97210868863621,107.629794159242 -6.97223057252087)",intersection_edge_441,intersection_node_154,intersection_node_307,false,5,20,15,true,false,false
+"LINESTRING (107.629794159242 -6.97223057252087,107.629869418212 -6.9723964863437)",intersection_edge_443,intersection_node_307,intersection_node_243,false,5,20,15,true,false,false
+"LINESTRING (107.629794159242 -6.97223057252087,107.630222059922 -6.97239365230942)",intersection_edge_444,intersection_node_307,intersection_node_155,false,5,20,15,true,false,false
+"LINESTRING (107.63021973587 -6.97224278511076,107.629869418212 -6.9723964863437)",intersection_edge_445,intersection_node_165,intersection_node_243,false,5,20,15,true,false,false
+"LINESTRING (107.629392084819 -6.97240134857744,107.629019734993 -6.97221579616168)",intersection_edge_446,intersection_node_150,intersection_node_151,false,5,20,15,true,false,false
+"LINESTRING (107.629763570752 -6.97166503333361,107.629989267933 -6.97134635241155)",intersection_edge_447,parkiran_motor_gku,intersection_node_309,false,5,20,15,true,false,false
+"LINESTRING (107.628795125764 -6.97089219519738,107.628697495567 -6.97088814470308)",intersection_edge_448,intersection_node_21,intersection_node_109,false,5,20,15,true,false,false
+"LINESTRING (107.62877898153 -6.97122157683418,107.628718664973 -6.97118197590082)",intersection_edge_458,intersection_node_70,parkiran_motor_asrama_putra_sementara,false,5,20,15,true,true,false
+"LINESTRING (107.628718664973 -6.97118197590082,107.628714031904 -6.97112862961056)",intersection_edge_459,parkiran_motor_asrama_putra_sementara,pos_satpam_asrama_putra,false,5,20,15,true,false,false
+"LINESTRING (107.628718664973 -6.97118197590082,107.628689013333 -6.97112954937424)",intersection_edge_460,parkiran_motor_asrama_putra_sementara,intersection_node_69,false,5,20,15,true,false,false
+"LINESTRING (107.628689013333 -6.97112954937424,107.628697495567 -6.97088814470308)",intersection_edge_461,intersection_node_69,intersection_node_109,false,5,20,15,true,false,false

@@ -18,22 +18,24 @@ public class RouteController {
     public ResponseEntity<?> findRoute(
             @RequestParam String startNodeId,
             @RequestParam String targetNodeId,
-            @RequestParam String mode) {
+            @RequestParam String mode,
+            // ✅ FIX: Tambah param requireParking — default false agar tidak breaking
+            @RequestParam(required = false, defaultValue = "false") boolean requireParking) {
         try {
-            // Konversi teks 'mode' dari request menjadi Enum TravelMode
             TravelMode travelMode = TravelMode.valueOf(mode.toUpperCase());
-
-            // Panggil otak algoritma kita!
-            RouteResult result = aStarPathfinder.findShortestPath(startNodeId, targetNodeId, travelMode);
-
+            // ✅ FIX: Gunakan overload yang menerima requireParking
+            RouteResult result = aStarPathfinder.findShortestPath(
+                startNodeId, targetNodeId, travelMode, requireParking
+            );
             if (result != null) {
                 return ResponseEntity.ok(result);
             } else {
                 return ResponseEntity.status(404).body("Maaf, rute tidak ditemukan antara titik tersebut.");
             }
-            
         } catch (IllegalArgumentException e) {
-            return ResponseEntity.badRequest().body("Error: Titik tidak valid atau mode kendaraan salah. Gunakan PEDESTRIAN, MOTORCYCLE, atau CAR.");
+            return ResponseEntity.badRequest().body(
+                "Error: Titik tidak valid atau mode kendaraan salah. Gunakan PEDESTRIAN, MOTORCYCLE, atau CAR."
+            );
         } catch (Exception e) {
             return ResponseEntity.internalServerError().body("Terjadi kesalahan internal: " + e.getMessage());
         }

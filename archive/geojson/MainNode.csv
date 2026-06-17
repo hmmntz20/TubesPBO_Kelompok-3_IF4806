@@ -1,0 +1,114 @@
+WKT,id,name,category
+"POINT (107.628469754521 -6.97096826521971)",asrama_putra_1,Asrama Putra Gedung 1,dormitory
+"POINT (107.62847531254 -6.97081538865682)",asrama_putra_2,Asrama Putra Gedung 2,dormitory
+"POINT (107.628513372848 -6.97034958919291)",asrama_putra_3,Asrama Putra Gedung 3,dormitory
+"POINT (107.627869604422 -6.97093588334027)",asrama_putra_4,Asrama Putra Gedung 4,dormitory
+"POINT (107.627874165021 -6.97078326256269)",asrama_putra_5,Asrama Putra Gedung 5,dormitory
+"POINT (107.627266772987 -6.97091106793491)",asrama_putra_6,Asrama Putra Gedung 6,dormitory
+"POINT (107.627268452874 -6.97076599806195)",asrama_putra_7,Asrama Putra Gedung 7,dormitory
+"POINT (107.627284970815 -6.97029609452331)",asrama_putra_8,Asrama Putra Gedung 8,dormitory
+"POINT (107.627890318948 -6.97001621462821)",asrama_putra_9,Asrama Putra Gedung 9,dormitory
+"POINT (107.627893979308 -6.96984908235412)",asrama_putra_10,Asrama Putra Gedung 10,dormitory
+"POINT (107.628517460711 -6.97003438117615)",asrama_putra_11,Asrama Putra Gedung 11,dormitory
+"POINT (107.628517460711 -6.96988420435869)",asrama_putra_12,Asrama Putra Gedung 12,dormitory
+"POINT (107.628732140541 -6.97163201035076)",sport_centre,Telkom University Sport Centre,sport
+"POINT (107.628886600836 -6.97149108145988)",street_food,Street Food,food_and_beverage
+"POINT (107.6285828 -6.9712857)",tj_mart,TJ Mart,mart
+"POINT (107.627347494346 -6.96992948440343)",kantin_asrama_putra,Kantin Asrama Putra,food_and_beverage
+"POINT (107.627168 -6.9699928)",mushola_kantin_asrama_putra,Mushola Kantin Asrama Putra,place_of_worship
+"POINT (107.6270604 -6.9700773)",tel-u_mart,Tel-U Mart,Mart
+"POINT (107.627857346952 -6.97038471196909)",asrama_park,Asrama Park,dormitory
+"POINT (107.62686432453 -6.97112182114736)",pengelolaan_kompos_asrama,Pengelolaan Kompos Asrama,dormitory
+"POINT (107.6283143 -6.9712806)",dormitory_hall,Dormitory Hall,dormitory
+"POINT (107.628471703568 -6.97124469106836)",barbershop_asrama_putra,Barbershop Asrama Putra,barbershop
+"POINT (107.629164196432 -6.97029483458919)",lapangan_bola_asrama,Lapangan Bola Asrama,sport
+"POINT (107.628737960597 -6.9715320678219)",focus_fitness,Gym Focus Fitness,fitness
+"POINT (107.628951095518 -6.96970170598124)",mushola_depan_tult,Mushola Depan TULT,place_of_worship
+"POINT (107.628124299018 -6.96915935899224)",tult,Telkom University Landmark Tower (TULT),building
+"POINT (107.627459 -6.9700676)",parkiran_motor_kantin_asrama_putra,Parkiran Motor Kantin Asrama Putra,parking
+"POINT (107.633468675858 -6.97209313800926)",gate_1,Gate 1,gate
+"POINT (107.633380753838 -6.97319824763419)",gate_2,Gate 2,gate
+"POINT (107.628718664973 -6.97118197590082)",parkiran_motor_asrama_putra_sementara,Parkiran Motor Arama Putra Sementara,parking
+"POINT (107.628714031904 -6.97112862961057)",pos_satpam_asrama_putra,Pos Satpam Asrama Putra,security
+"POINT (107.628455516444 -6.96941518515655)",parkiran_mobil_mahasiswa_tult,Parkiran Mobil Mahasiswa TULT,parking
+"POINT (107.629217632143 -6.96957066395356)",parkiran_motor_tult,Parkir Motor TULT,parking
+"POINT (107.6289311867 -6.96945457120216)",pos_satpam_depan_tult,Post Satpam Depan TULT,security
+"POINT (107.629075896163 -6.96973398082635)",cuci_motor_depan_tult,Cuci Motor Depan TULT,service
+"POINT (107.629623351307 -6.97051423236157)",kandang_rusa,Kandang Rusa,animal
+"POINT (107.630319770462 -6.97045558668838)",bandung_techno_park,Bandung Techno Park (BTP),building
+"POINT (107.629717334286 -6.97002992391454)",marker_space,Marker Space Telkom University,building
+"POINT (107.631070994163 -6.97143133822978)",tuch,Telkom University Convension Hall (TUCH),building
+"POINT (107.631344400315 -6.97097309809061)",lapangan_depan_tuch,Lapangan TUCH,field
+"POINT (107.629763570752 -6.97166503333361)",parkiran_motor_gku,Parkiran Motor GKU,parking
+"POINT (107.630439642873 -6.97144006654801)",pos_satpam_parkiran_motor_gku,Pos Satpam Parkiran Motor GKU,security
+"POINT (107.63089445472 -6.97057196998958)",parkiran_mobil_btp,Parkiran Mobil BTP,parking
+"POINT (107.630693399546 -6.97034389096481)",parkiran_motor_btp,Parkiran Motor BTP,parking
+"POINT (107.629640380606 -6.97290593180719)",gku,Gedung Tokong Nanas (GKU),building
+"POINT (107.631285035268 -6.97302111773539)",danau_galau,Danau Galau,lake
+"POINT (107.630290358844 -6.97397605937554)",gedung_bangkit,Gedung Bangkit (Rektorat),building
+"POINT (107.632591034413 -6.97400467820938)",gate_3,Gate 3,gate
+"POINT (107.632515080431 -6.97484398176019)",gate_lama,"Gate 3,5 (Gate Lama)",gate
+"POINT (107.63288059066 -6.97610117435844)",gate_4,Gate 4,gate
+"POINT (107.629817790208 -6.97740180982646)",lapangan_tennis,Lapangan Tennis Telkom University,sport
+"POINT (107.629405074531 -6.97730852693803)",student_center,Student Center,building
+"POINT (107.630322086263 -6.97664597555297)",gedung_serbaguna,Gedung Serbaguna (GSG),building
+"POINT (107.632106493832 -6.97568164122346)",msu,Masjid Syamsul Ulum (MSU),place_of_worship
+"POINT (107.628899184166 -6.97441478856556)",kantin_asrama_putri_1,Kantin Asrama Putri 1,food_and_beverage
+"POINT (107.632153887087 -6.97446809666067)",lapangan_bola_cacuk,Lapangan Bola Cacuk,field
+"POINT (107.629236415757 -6.97422281180961)",kantin_asrama_putri_2,Kantin Asrama Putri 2,food_and_beverage
+"POINT (107.630662366559 -6.97580247681529)",gedung_d,Gedung D,building
+"POINT (107.631369152943 -6.97572862897578)",gedung_c,Gedung C,building
+"POINT (107.631385685958 -6.97549067474705)",pasca_sarjana,Pasca Sarjana,building
+"POINT (107.631800389079 -6.97493681529814)",parkiran_mobil_cacuk,Parkir Mobil Cacuk,parking
+"POINT (107.632142071386 -6.9761881264546)",parkiran_motor_gate4,Parkiran Motor Gate 4,parking
+"POINT (107.631225804412 -6.97624690815037)",gedung_manufaktur_fri,Gedung Manufaktur FRI,building
+"POINT (107.629970060401 -6.97352939715811)",taman_calisthenics,Taman Calisthenics GKU,fitness
+"POINT (107.631852291343 -6.9742437031982)",taman_calisthenics_cacuk,Taman Calisthenics Cacuk,fitness
+"POINT (107.631380135902 -6.97391671358333)",harmony_cafe,Harmony Cafe Telkom University,food_and_beverage
+"POINT (107.630200074553 -6.97422215207352)",rabbit_park,Telkom Rabbit Park,animal
+"POINT (107.628901498292 -6.97447529411575)",tmart,T Mart,mart
+"POINT (107.631517823013 -6.97712387965832)",saung_alfatih,Saung Al-Fatih,food_and_bevergae
+"POINT (107.630400881267 -6.97725256741857)",telkomeduika,Klinik Pratama Telkomedika,medic
+"POINT (107.630321051995 -6.97691982156594)",student_affairs,Student Affairs,building
+"POINT (107.631493304649 -6.97709865407235)",green_house,Green House,green_area
+"POINT (107.631216752785 -6.97640893003723)",gedung_e,Gedung E,building
+"POINT (107.631216752785 -6.97674561968297)",gedung_f,Gedung F,building
+"POINT (107.631780396852 -6.97659861433655)",lapangan_tembah_archatel,Lapangan Tembak Archatel,field
+"POINT (107.631836437511 -6.97675983462855)",parkiran_karyawan,Parkiran Karyawan,parking
+"POINT (107.62960106781 -6.97548975066068)",gedung_fakultas_elektro,Gedung Fakultas Elektro Lama,building
+"POINT (107.629323202587 -6.97656672854546)",gedung_fakultas_kedokteran,Gedung Fakultas Kedokteran,building
+"POINT (107.631080784307 -6.97486484441263)",graha_wiyata_cacuk_a,Graha Wiyata Cacuk A,building
+"POINT (107.631066979394 -6.97437716851121)",graha_wiyata_cacuk_b,Graha Wiyata Cacuk B,building
+"POINT (107.630832063076 -6.97447552934022)",eprt_room,EPrT Room,room
+"POINT (107.63086084874 -6.97425609126269)",lac,Language Center (LAC),room
+"POINT (107.631247728059 -6.9743772393807)",pemasaran_dan_admisi,Pemasaran dan Admisi Telkom University,room
+"POINT (107.633717276476 -6.97256266884315)",tugu_telkom_university,Tugu Telkom University,building
+"POINT (107.633168137481 -6.97242806257756)",parkiran_mobil_fks,Parkiran Mobil FKS,parking
+"POINT (107.632678199137 -6.97161075473996)",parkiran_motor_fks_fpb,Parkiran Motor FKS & FPB,parking
+"POINT (107.633275683803 -6.97288988127223)",atm_gate2,"ATM Mandiri, BRI, BCA, CIMB Niaga",atm
+"POINT (107.632583293972 -6.97324493577859)",gedung_fit,Gedung Fakultas Ilmu Terapan,building
+"POINT (107.633022207779 -6.97302231460445)",parkiran_mobil_fit,Parkiran Mobil FIT,parking
+"POINT (107.632349367382 -6.97242506695337)",parkiran_motor_fit,Parkiran Motor FIT,parking
+"POINT (107.631926304286 -6.97210525389892)",lapangan_basket,Lapangan Basket,field
+"POINT (107.631320076574 -6.97200862344719)",gedung_fik,Gedung Fakultas Industri Kreatif,building
+"POINT (107.631513544504 -6.97219629627039)",taman_fik,Taman Fakultas Industri Kreatif,park
+"POINT (107.631732002897 -6.97191263386103)",parkiran_mobil_fik,Parkiran Mobil FIK,parking
+"POINT (107.632142262519 -6.97139708260148)",gedung_feb,Gedung Fakultas Ekonomi dan Bisnis,building
+"POINT (107.632423974973 -6.97174724941176)",gedung_manterawu,Gedung Manterawu Telkom University,building
+"POINT (107.631962056187 -6.97170974233026)",parkiran_mobil_feb,Parkiran Mobil FEB,parking
+"POINT (107.628230063304 -6.97396833622484)",laundry_asrama_putri,Laundry Asrama Putri,service
+"POINT (107.628117710214 -6.97397327081933)",warprint,Warprint Asrama Putri,store
+"POINT (107.628707066797 -6.97405543180997)",asrama_putri_a,Asrama Putri Gedung A,dormitory
+"POINT (107.628745607779 -6.97367318360577)",asrama_putri_b,Asrama Putri Gedung B,dormitory
+"POINT (107.628811378534 -6.9732827584092)",asrama_putri_c,Asrama Putri Gedung C,dormitory
+"POINT (107.628746193332 -6.972892559843)",asrama_putri_d,Asrama Putri Gedun D,dormitory
+"POINT (107.628685632198 -6.97252304251319)",asrama_putri_e,Asrama Putri Gedung E,dormitory
+"POINT (107.628699825363 -6.97212959438382)",asrama_putri_f,Asrama Putri Gedung F,dormitory
+"POINT (107.62900224789 -6.97519647117578)",gate_5,Gate 5,gate
+"POINT (107.634043481714 -6.97254483495673)",bundaran_telu,Bundaran Telkom University,way
+"POINT (107.629509325567 -6.97426161651129)",pepeng,Padepokan Pepeng,building
+"POINT (107.629613871291 -6.97410763197748)",pendopo,Telkom University Pendopo,building
+"POINT (107.630520870532 -6.97285612445929)",mushola_danau_lakilaki,Mushola Danau Galau Laki Laki,place_of_worship
+"POINT (107.630515206002 -6.97299412348424)",muhsola_danau_perempuan,Mushola Danau Galau Perempuan,place_of_worship
+"POINT (107.630318481404 -6.97575013598352)",parkiran_mobil_gsg,Parkiran Mobil GSG,parking
+"POINT (107.629625185623 -6.97231102823233)",parkiran_mobil_gku,Parkiran Mobil GKU,parking

@@ -1,0 +1,4533 @@
+{
+  "type": "FeatureCollection",
+  "name": "MainEdge",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_64",
+        "from_node": "intersection_node_103",
+        "to_node": "intersection_node_82",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628846224220055, -6.969343311918913],
+          [107.628674341323077, -6.969306366802808]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_65",
+        "from_node": "intersection_node_97",
+        "to_node": "intersection_node_76",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628834763302919, -6.969605913267811],
+          [107.628692456915132, -6.969600225153509]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_66",
+        "from_node": "intersection_node_77",
+        "to_node": "intersection_node_79",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628549195450915, -6.969592641001],
+          [107.62840593398667, -6.969599277134451]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_1",
+        "from_node": "intersection_node_3",
+        "to_node": "intersection_node_4",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633416584132647, -6.972053138618494],
+          [107.632979624350114, -6.971765828395076],
+          [107.632690964609168, -6.971550453536538],
+          [107.632439113828454, -6.971371615409128],
+          [107.631813125020528, -6.970931831180536]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_143",
+        "from_node": "gate_1",
+        "to_node": "intersection_node_167",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633468675857813, -6.972093138009257],
+          [107.633573657757324, -6.972164900326469]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_4",
+        "from_node": "intersection_node_6",
+        "to_node": "intersection_node_7",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631713576333624, -6.971717221981816],
+          [107.631889299864284, -6.971870802441479]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_144",
+        "from_node": "intersection_node_167",
+        "to_node": "intersection_node_175",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633573657757324, -6.972164900326469],
+          [107.633921493332707, -6.97239004327665]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_6",
+        "from_node": "intersection_node_8",
+        "to_node": "intersection_node_9",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632594566298309, -6.972461565648615],
+          [107.632799232169546, -6.9726429420242]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_7",
+        "from_node": "intersection_node_9",
+        "to_node": "intersection_node_10",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.63279923216956, -6.9726429420242],
+          [107.632880248669551, -6.972700012377149],
+          [107.632880248669565, -6.97270001237715]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_253",
+        "from_node": "intersection_node_11",
+        "to_node": "intersection_node_306",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633248514477003, -6.973063554674759],
+          [107.633182293752014, -6.972980086445099]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_145",
+        "from_node": "intersection_node_175",
+        "to_node": "intersection_node_170",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633921493332707, -6.97239004327665],
+          [107.633968403072075, -6.972483168928844]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_146",
+        "from_node": "intersection_node_175",
+        "to_node": "intersection_node_171",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633921493332707, -6.97239004327665],
+          [107.634013436421824, -6.972432881078957]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_256",
+        "from_node": "intersection_node_15",
+        "to_node": "intersection_node_14",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630625790744816, -6.971365535633693],
+          [107.630625790744816, -6.971365535633693],
+          [107.630735904598637, -6.971262252251235],
+          [107.630881939132578, -6.971042281105621]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_255",
+        "from_node": "intersection_node_16",
+        "to_node": "intersection_node_17",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628979970044284, -6.971309823019995],
+          [107.628922519993083, -6.971297866096657]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_71",
+        "from_node": "intersection_node_16",
+        "to_node": "intersection_node_32",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628979970044284, -6.971309823019995],
+          [107.628966997211975, -6.97154193032875]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_16",
+        "from_node": "intersection_node_18",
+        "to_node": "intersection_node_21",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628778981530374, -6.971221576834181],
+          [107.628795125764498, -6.970892195197381]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_72",
+        "from_node": "intersection_node_32",
+        "to_node": "intersection_node_33",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628966997211975, -6.97154193032875],
+          [107.628965778265567, -6.971631465453131]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_30",
+        "from_node": "intersection_node_63",
+        "to_node": "intersection_node_51",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.627865281400105, -6.970214521444482],
+          [107.627591475300434, -6.97019957340671]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_31",
+        "from_node": "intersection_node_51",
+        "to_node": "parkiran_motor_kantin_asrama_putra",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.627591475300434, -6.97019957340671],
+          [107.627459, -6.9700676]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_33",
+        "from_node": "intersection_node_77",
+        "to_node": "intersection_node_82",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628692456915132, -6.969600225153509],
+          [107.628674341323077, -6.969306366802808]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_91",
+        "from_node": "intersection_node_77",
+        "to_node": "intersection_node_76",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628549195450915, -6.969592641000999],
+          [107.628692456915118, -6.96960022515351]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_92",
+        "from_node": "intersection_node_93",
+        "to_node": "intersection_node_77",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628532959151627, -6.969416309420554],
+          [107.628549195450915, -6.969592641000999]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_38",
+        "from_node": "intersection_node_93",
+        "to_node": "intersection_node_83",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628532959151627, -6.969416309420554],
+          [107.628517192574876, -6.969267369895559]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_39",
+        "from_node": "intersection_node_79",
+        "to_node": "intersection_node_92",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.62840593398667, -6.969599277134453],
+          [107.628390652763827, -6.969416309420553]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_40",
+        "from_node": "intersection_node_88",
+        "to_node": "intersection_node_92",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628376544445217, -6.96926269026647],
+          [107.628390652763827, -6.969416309420553]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_41",
+        "from_node": "intersection_node_88",
+        "to_node": "intersection_node_84",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628376544445217, -6.96926269026647],
+          [107.6284354752258, -6.969241631934998]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_43",
+        "from_node": "intersection_node_82",
+        "to_node": "intersection_node_83",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628674341323077, -6.969306366802808],
+          [107.628517192574876, -6.969267369895559]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_44",
+        "from_node": "intersection_node_79",
+        "to_node": "intersection_node_80",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.62840593398667, -6.969599277134453],
+          [107.6282645826753, -6.969592641000999]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_45",
+        "from_node": "intersection_node_80",
+        "to_node": "intersection_node_81",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.6282645826753, -6.969592641000999],
+          [107.627987610511141, -6.96958410882928]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_46",
+        "from_node": "intersection_node_81",
+        "to_node": "intersection_node_72",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.627987610511141, -6.96958410882928],
+          [107.627856648413029, -6.969564834561298]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_48",
+        "from_node": "intersection_node_85",
+        "to_node": "intersection_node_90",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.627827309570222, -6.969325085317137],
+          [107.627811594695387, -6.969212774219961]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_50",
+        "from_node": "intersection_node_80",
+        "to_node": "intersection_node_87",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.6282645826753, -6.969592641000999],
+          [107.628237164417556, -6.969313019099001]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_51",
+        "from_node": "intersection_node_87",
+        "to_node": "intersection_node_88",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628237164417556, -6.969313019099001],
+          [107.628376544445217, -6.96926269026647]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_79",
+        "from_node": "intersection_node_90",
+        "to_node": "intersection_node_91",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.627811594695402, -6.969212774219961],
+          [107.62812432070433, -6.969202635022363]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_80",
+        "from_node": "intersection_node_91",
+        "to_node": "intersection_node_89",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.62812432070433, -6.969202635022363],
+          [107.628420546094702, -6.96918313656483]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_147",
+        "from_node": "intersection_node_171",
+        "to_node": "intersection_node_172",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.634013436421824, -6.972432881078957],
+          [107.634115920355754, -6.972480601967635],
+          [107.634139154523311, -6.972546494361762]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_73",
+        "from_node": "intersection_node_70",
+        "to_node": "intersection_node_110",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628778981530388, -6.971221576834181],
+          [107.628834466308732, -6.971270973631148]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_74",
+        "from_node": "intersection_node_17",
+        "to_node": "intersection_node_110",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628922519993083, -6.971297866096657],
+          [107.628834466308732, -6.971270973631148]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_75",
+        "from_node": "intersection_node_63",
+        "to_node": "intersection_node_52",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.627865281400105, -6.970214521444481],
+          [107.628173463082106, -6.970237619414771]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_81",
+        "from_node": "intersection_node_89",
+        "to_node": "intersection_node_84",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628420546094702, -6.96918313656483],
+          [107.6284354752258, -6.969241631934997]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_77",
+        "from_node": "intersection_node_95",
+        "to_node": "intersection_node_62",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628817066800366, -6.970276337416263],
+          [107.62851596881714, -6.970264396372896]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_82",
+        "from_node": "intersection_node_83",
+        "to_node": "intersection_node_84",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628517192574876, -6.969267369895559],
+          [107.6284354752258, -6.969241631934997]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_83",
+        "from_node": "intersection_node_86",
+        "to_node": "intersection_node_81",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.627975543365608, -6.969313019099001],
+          [107.627987610511141, -6.96958410882928]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_84",
+        "from_node": "intersection_node_85",
+        "to_node": "intersection_node_72",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.627827309570208, -6.969325085317137],
+          [107.627856648413029, -6.969564834561298]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_85",
+        "from_node": "intersection_node_52",
+        "to_node": "intersection_node_62",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628173463082106, -6.970237619414771],
+          [107.62851596881714, -6.970264396372896]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_86",
+        "from_node": "intersection_node_87",
+        "to_node": "intersection_node_86",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628237164417556, -6.969313019099001],
+          [107.627975543365608, -6.969313019099001]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_87",
+        "from_node": "intersection_node_86",
+        "to_node": "intersection_node_85",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.627975543365608, -6.969313019099001],
+          [107.627827309570208, -6.969325085317137]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_148",
+        "from_node": "intersection_node_172",
+        "to_node": "intersection_node_174",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.634139154523311, -6.972546494361762],
+          [107.634117017441881, -6.972612367645824],
+          [107.63404908782374, -6.972641482495089]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_292",
+        "from_node": "intersection_node_313",
+        "to_node": "intersection_node_112",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.63256719493728, -6.974041125208429],
+          [107.631683961683009, -6.974032100868474]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_95",
+        "from_node": "intersection_node_113",
+        "to_node": "intersection_node_112",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631685982589175, -6.973977940105455],
+          [107.631683961683009, -6.974032100868474]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_96",
+        "from_node": "intersection_node_115",
+        "to_node": "intersection_node_112",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631527341453989, -6.973993987739594],
+          [107.631683961683009, -6.974032100868474]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_97",
+        "from_node": "intersection_node_113",
+        "to_node": "intersection_node_115",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631685982589175, -6.973977940105455],
+          [107.631527341453989, -6.973993987739594]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_98",
+        "from_node": "intersection_node_112",
+        "to_node": "intersection_node_114",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631683961683009, -6.974032100868474],
+          [107.631618282232154, -6.974098297348105]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_99",
+        "from_node": "intersection_node_115",
+        "to_node": "intersection_node_114",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631527341453989, -6.973993987739594],
+          [107.631618282232154, -6.974098297348105]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_100",
+        "from_node": "intersection_node_114",
+        "to_node": "intersection_node_118",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631618282232154, -6.974098297348105],
+          [107.631623698946981, -6.974245287463805]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_101",
+        "from_node": "intersection_node_115",
+        "to_node": "intersection_node_117",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631527341453989, -6.973993987739594],
+          [107.631386109553958, -6.9739990647477],
+          [107.631386109553958, -6.9739990647477]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_149",
+        "from_node": "intersection_node_170",
+        "to_node": "intersection_node_173",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633968403072075, -6.972483168928844],
+          [107.633945872006834, -6.972539406489754],
+          [107.633966526682499, -6.97260423224902]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_103",
+        "from_node": "intersection_node_118",
+        "to_node": "intersection_node_119",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631623698946981, -6.974245287463805],
+          [107.631623689358051, -6.974465272172731]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_104",
+        "from_node": "intersection_node_119",
+        "to_node": "intersection_node_131",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631623689358051, -6.974465272172731],
+          [107.631622330485399, -6.974763960157103]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_105",
+        "from_node": "intersection_node_131",
+        "to_node": "intersection_node_133",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631622330485399, -6.974763960157103],
+          [107.631628353832028, -6.974930169996356]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_106",
+        "from_node": "intersection_node_133",
+        "to_node": "intersection_node_132",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631628353832028, -6.974930169996356],
+          [107.631628353832028, -6.974974412893267]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_107",
+        "from_node": "intersection_node_132",
+        "to_node": "intersection_node_134",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631628353832028, -6.974974412893267],
+          [107.631628353832028, -6.974974412893267],
+          [107.631622163337539, -6.975218244092365]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_108",
+        "from_node": "intersection_node_134",
+        "to_node": "intersection_node_135",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631622163337539, -6.975218244092365],
+          [107.631622163337539, -6.975283303081339]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_109",
+        "from_node": "intersection_node_135",
+        "to_node": "intersection_node_136",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631622163337539, -6.975283303081339],
+          [107.631853028374167, -6.97527379088025]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_110",
+        "from_node": "intersection_node_136",
+        "to_node": "gate_lama",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631853028374167, -6.97527379088025],
+          [107.632035497733426, -6.975238602508338],
+          [107.632244681722739, -6.97504604639942],
+          [107.63237556779427, -6.974926568773964],
+          [107.632515080430721, -6.974843981760186]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_232",
+        "from_node": "intersection_node_135",
+        "to_node": "intersection_node_301",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631622163337539, -6.975283303081339],
+          [107.630806812463788, -6.975286403475293]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_150",
+        "from_node": "intersection_node_173",
+        "to_node": "intersection_node_176",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633966526682499, -6.97260423224902],
+          [107.633932421537338, -6.972746053838676]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_113",
+        "from_node": "intersection_node_139",
+        "to_node": "intersection_node_138",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630383012603176, -6.975229097861531],
+          [107.630270120028939, -6.975229757020519]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_114",
+        "from_node": "intersection_node_138",
+        "to_node": "intersection_node_137",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630270120028939, -6.975229757020519],
+          [107.630137305235735, -6.975227779543558]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_233",
+        "from_node": "intersection_node_301",
+        "to_node": "intersection_node_140",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630806812463788, -6.975286403475293],
+          [107.630287385952059, -6.975305560297744]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_116",
+        "from_node": "intersection_node_137",
+        "to_node": "intersection_node_141",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630137305235735, -6.975227779543558],
+          [107.62974815926205, -6.97521968896219]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_117",
+        "from_node": "intersection_node_141",
+        "to_node": "intersection_node_142",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.62974815926205, -6.97521968896219],
+          [107.629040256414257, -6.975226544215739]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_118",
+        "from_node": "intersection_node_142",
+        "to_node": "intersection_node_143",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629040256414257, -6.975226544215739],
+          [107.629041983006559, -6.975298524371945]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_119",
+        "from_node": "intersection_node_142",
+        "to_node": "gate_5",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629040256414257, -6.975226544215739],
+          [107.629002247889545, -6.975196471175781]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_120",
+        "from_node": "intersection_node_142",
+        "to_node": "intersection_node_161",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629040256414257, -6.975226544215739],
+          [107.629035955812142, -6.974979695408416]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_121",
+        "from_node": "intersection_node_161",
+        "to_node": "intersection_node_162",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629035955812142, -6.974979695408416],
+          [107.629039474872442, -6.974541874711427]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_151",
+        "from_node": "intersection_node_174",
+        "to_node": "intersection_node_176",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.63404908782374, -6.972641482495089],
+          [107.633932421537338, -6.972746053838676]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_123",
+        "from_node": "intersection_node_144",
+        "to_node": "intersection_node_145",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629042093727264, -6.974275887866185],
+          [107.62904543914189, -6.974089247302664],
+          [107.629127697859474, -6.973987843136818],
+          [107.629220713624306, -6.973940203065183]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_124",
+        "from_node": "intersection_node_145",
+        "to_node": "intersection_node_146",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629220713624306, -6.973940203065183],
+          [107.629186074501064, -6.973528576335348]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_129",
+        "from_node": "intersection_node_148",
+        "to_node": "intersection_node_149",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629006056836232, -6.972564272589216],
+          [107.629013655812301, -6.972399840021508]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_130",
+        "from_node": "intersection_node_149",
+        "to_node": "intersection_node_151",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629013655812301, -6.972399840021508],
+          [107.629019734993108, -6.972215796161684]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_131",
+        "from_node": "intersection_node_151",
+        "to_node": "intersection_node_153",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629019734993108, -6.972215796161684],
+          [107.62902429437878, -6.972042312129264]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_132",
+        "from_node": "intersection_node_151",
+        "to_node": "intersection_node_152",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629019734993108, -6.972215796161684],
+          [107.629398164000037, -6.972226356057238]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_133",
+        "from_node": "intersection_node_152",
+        "to_node": "intersection_node_150",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629398164000037, -6.972226356057238],
+          [107.629392084819187, -6.972401348577436]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_134",
+        "from_node": "intersection_node_150",
+        "to_node": "intersection_node_149",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629392084819187, -6.972401348577436],
+          [107.629013655812301, -6.972399840021508]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_152",
+        "from_node": "intersection_node_176",
+        "to_node": "intersection_node_168",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633932421537338, -6.972746053838676],
+          [107.633555368671765, -6.973111463052401]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_153",
+        "from_node": "intersection_node_168",
+        "to_node": "intersection_node_169",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633555368671765, -6.973111463052401],
+          [107.633415068603568, -6.973239603550274]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_273",
+        "from_node": "intersection_node_153",
+        "to_node": "intersection_node_216",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.62902429437878, -6.972042312129264],
+          [107.629362179639514, -6.972056020037766]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_138",
+        "from_node": "intersection_node_155",
+        "to_node": "intersection_node_165",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630222059922218, -6.972393652309418],
+          [107.630219735870483, -6.972242785110761]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_139",
+        "from_node": "intersection_node_165",
+        "to_node": "intersection_node_154",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630219735870483, -6.972242785110761],
+          [107.630221893003082, -6.972108688636213]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_154",
+        "from_node": "gate_2",
+        "to_node": "intersection_node_169",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633380753837955, -6.97319824763419],
+          [107.633415068603568, -6.973239603550274],
+          [107.633415068603568, -6.973239603550274]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_141",
+        "from_node": "intersection_node_153",
+        "to_node": "intersection_node_166",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.62902429437878, -6.972042312129264],
+          [107.628982765929152, -6.971859190908927]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_142",
+        "from_node": "intersection_node_166",
+        "to_node": "intersection_node_33",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628982765929152, -6.971859190908927],
+          [107.62896151174661, -6.971755888214925],
+          [107.628965778265567, -6.971631465453131]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_155",
+        "from_node": "intersection_node_8",
+        "to_node": "intersection_node_179",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632594566298309, -6.972461565648615],
+          [107.632605918070439, -6.972424020544426]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_156",
+        "from_node": "intersection_node_179",
+        "to_node": "intersection_node_181",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632605918070439, -6.972424020544426],
+          [107.632690927900086, -6.972349015066674]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_157",
+        "from_node": "intersection_node_180",
+        "to_node": "intersection_node_8",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632636616064474, -6.972456054130224],
+          [107.632594566298309, -6.972461565648615]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_158",
+        "from_node": "intersection_node_180",
+        "to_node": "intersection_node_182",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632636616064474, -6.972456054130224],
+          [107.632726348662459, -6.972373235586843]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_159",
+        "from_node": "intersection_node_182",
+        "to_node": "intersection_node_181",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632726348662459, -6.972373235586843],
+          [107.632690927900086, -6.972349015066674]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_160",
+        "from_node": "intersection_node_183",
+        "to_node": "intersection_node_185",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632971932614737, -6.972560749249021],
+          [107.63311455897319, -6.97238722618398]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_161",
+        "from_node": "intersection_node_183",
+        "to_node": "intersection_node_184",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632971932614737, -6.972560749249021],
+          [107.633072685005416, -6.972642786452622]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_162",
+        "from_node": "intersection_node_184",
+        "to_node": "intersection_node_186",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633072685005416, -6.972642786452622],
+          [107.633215975434297, -6.972469848651034]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_163",
+        "from_node": "intersection_node_186",
+        "to_node": "parkiran_mobil_fks",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633215975434297, -6.972469848651034],
+          [107.633168137480936, -6.972428062577563]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_164",
+        "from_node": "parkiran_mobil_fks",
+        "to_node": "intersection_node_185",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633168137480936, -6.972428062577563],
+          [107.63311455897319, -6.97238722618398]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_165",
+        "from_node": "intersection_node_183",
+        "to_node": "intersection_node_182",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632971932614737, -6.972560749249021],
+          [107.632726348662459, -6.972373235586843]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_166",
+        "from_node": "intersection_node_5",
+        "to_node": "intersection_node_192",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631447541049567, -6.971451449970827],
+          [107.631480444075905, -6.971502527133304]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_167",
+        "from_node": "intersection_node_192",
+        "to_node": "intersection_node_191",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631480444075905, -6.971502527133304],
+          [107.631685075001258, -6.971678919061336]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_168",
+        "from_node": "intersection_node_191",
+        "to_node": "intersection_node_6",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631685075001258, -6.971678919061336],
+          [107.631713576333624, -6.971717221981815]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_169",
+        "from_node": "intersection_node_181",
+        "to_node": "intersection_node_187",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632690927900086, -6.972349015066674],
+          [107.632658418152673, -6.972278918380026],
+          [107.632692074554853, -6.972201412943321],
+          [107.63248475111736, -6.972037047923059],
+          [107.632317815362484, -6.972041056826677],
+          [107.632225201934659, -6.971995789686367]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_170",
+        "from_node": "intersection_node_187",
+        "to_node": "intersection_node_188",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632225201934659, -6.971995789686367],
+          [107.632134724534566, -6.97189539997316],
+          [107.632086259315386, -6.971736380053854],
+          [107.63201456322706, -6.971643078726417]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_171",
+        "from_node": "intersection_node_188",
+        "to_node": "intersection_node_189",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.63201456322706, -6.971643078726417],
+          [107.631847891613717, -6.9715002356089]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_172",
+        "from_node": "intersection_node_189",
+        "to_node": "intersection_node_190",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631847891613717, -6.9715002356089],
+          [107.631810640536216, -6.971535204874648]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_173",
+        "from_node": "intersection_node_190",
+        "to_node": "intersection_node_191",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631810640536216, -6.971535204874648],
+          [107.631685075001258, -6.971678919061336]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_174",
+        "from_node": "intersection_node_7",
+        "to_node": "intersection_node_193",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631889299864284, -6.971870802441479],
+          [107.632018821329694, -6.971996894472994]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_175",
+        "from_node": "intersection_node_193",
+        "to_node": "intersection_node_8",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632018821329694, -6.971996894472994],
+          [107.632018821329694, -6.971996894472994],
+          [107.632109162837665, -6.972069914306239],
+          [107.632302751783357, -6.972167274066194],
+          [107.632469238276656, -6.972333810450796],
+          [107.632594566298309, -6.972461565648615]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_176",
+        "from_node": "intersection_node_154",
+        "to_node": "intersection_node_194",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630221893003082, -6.972108688636213],
+          [107.630243198165317, -6.971959551635315],
+          [107.630347829461044, -6.971857196569576]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_177",
+        "from_node": "intersection_node_194",
+        "to_node": "intersection_node_195",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630347829461044, -6.971857196569576],
+          [107.630454884148023, -6.971719996074374]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_178",
+        "from_node": "intersection_node_195",
+        "to_node": "intersection_node_15",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630454884148023, -6.971719996074374],
+          [107.630625790744816, -6.971365535633693]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_182",
+        "from_node": "intersection_node_203",
+        "to_node": "intersection_node_201",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631561198886857, -6.972255638539647],
+          [107.631409117461857, -6.972419010207457]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_183",
+        "from_node": "intersection_node_201",
+        "to_node": "intersection_node_200",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631409117461857, -6.972419010207457],
+          [107.631237304852675, -6.972258848993978]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_184",
+        "from_node": "intersection_node_200",
+        "to_node": "intersection_node_202",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631237304852675, -6.972258848993978],
+          [107.631388247085411, -6.972075382032191]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_185",
+        "from_node": "intersection_node_202",
+        "to_node": "intersection_node_205",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631388247085411, -6.972075382032191],
+          [107.631388247085411, -6.972075382032191],
+          [107.631623164622511, -6.971815928682404]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_186",
+        "from_node": "intersection_node_205",
+        "to_node": "intersection_node_6",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631623164622511, -6.971815928682404],
+          [107.631713576333624, -6.971717221981815]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_187",
+        "from_node": "intersection_node_7",
+        "to_node": "intersection_node_204",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631889299864284, -6.971870802441479],
+          [107.631792623757931, -6.97197417523207]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_188",
+        "from_node": "intersection_node_204",
+        "to_node": "intersection_node_203",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631792623757931, -6.97197417523207],
+          [107.631561198886857, -6.972255638539647]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_189",
+        "from_node": "intersection_node_9",
+        "to_node": "intersection_node_206",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632799232169546, -6.9726429420242],
+          [107.632628673620616, -6.972801033609722]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_190",
+        "from_node": "intersection_node_10",
+        "to_node": "intersection_node_207",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632880248669551, -6.972700012377149],
+          [107.632706852158677, -6.972873902198345]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_191",
+        "from_node": "intersection_node_207",
+        "to_node": "intersection_node_206",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632706852158677, -6.972873902198345],
+          [107.632628673620616, -6.972801033609722]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_192",
+        "from_node": "intersection_node_207",
+        "to_node": "intersection_node_208",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632706852158677, -6.972873902198345],
+          [107.632793611267971, -6.972980839197493]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_193",
+        "from_node": "intersection_node_208",
+        "to_node": "intersection_node_210",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632793611267971, -6.972980839197493],
+          [107.632867093721885, -6.973084625170296]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_194",
+        "from_node": "intersection_node_210",
+        "to_node": "intersection_node_209",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632867093721885, -6.973084625170296],
+          [107.633045308024677, -6.973295025637837]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_195",
+        "from_node": "intersection_node_206",
+        "to_node": "intersection_node_214",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632628673620616, -6.972801033609722],
+          [107.632514022964699, -6.972725610356736],
+          [107.632293153849375, -6.972480882204741]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_198",
+        "from_node": "intersection_node_154",
+        "to_node": "intersection_node_215",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630221893003082, -6.972108688636213],
+          [107.629898272248084, -6.97209226608267],
+          [107.629898272248084, -6.97209226608267]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_200",
+        "from_node": "intersection_node_227",
+        "to_node": "intersection_node_144",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629035750675584, -6.974442626897745],
+          [107.629042093727264, -6.974275887866185]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_202",
+        "from_node": "intersection_node_235",
+        "to_node": "intersection_node_116",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.63105062939546, -6.974008593066873],
+          [107.630675853154301, -6.974018317349406]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_204",
+        "from_node": "intersection_node_236",
+        "to_node": "intersection_node_237",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.63006917993016, -6.973244944903532],
+          [107.630203396925808, -6.973247323906849],
+          [107.630203396925808, -6.973247323906849]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_205",
+        "from_node": "intersection_node_237",
+        "to_node": "intersection_node_158",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630203396925808, -6.973247323906849],
+          [107.630212774231822, -6.973084723913908]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_207",
+        "from_node": "intersection_node_157",
+        "to_node": "intersection_node_156",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630220373207848, -6.972757367640912],
+          [107.630217333617452, -6.9725612554784]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_208",
+        "from_node": "intersection_node_156",
+        "to_node": "intersection_node_155",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630217333617452, -6.9725612554784],
+          [107.630222059922218, -6.972393652309417]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_209",
+        "from_node": "intersection_node_158",
+        "to_node": "intersection_node_238",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630212774231822, -6.973084723913908],
+          [107.630070688610616, -6.973089844100041]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_210",
+        "from_node": "intersection_node_236",
+        "to_node": "intersection_node_238",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.63006917993016, -6.973244944903532],
+          [107.630070688610616, -6.973089844100041]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_211",
+        "from_node": "intersection_node_238",
+        "to_node": "intersection_node_239",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630070688610616, -6.973089844100041],
+          [107.629976179918756, -6.973083216851589],
+          [107.629924834478601, -6.973042795814676],
+          [107.629905358622011, -6.972914502935287]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_212",
+        "from_node": "intersection_node_239",
+        "to_node": "intersection_node_157",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629905358622011, -6.972914502935287],
+          [107.629905358622011, -6.972914502935287],
+          [107.629912440751667, -6.972823116205253],
+          [107.629962015659402, -6.972770393083664],
+          [107.630032836956119, -6.972756333583573],
+          [107.630220373207848, -6.972757367640912]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_213",
+        "from_node": "intersection_node_155",
+        "to_node": "intersection_node_243",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630222059922218, -6.972393652309417],
+          [107.629869418211854, -6.972396486343703]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_274",
+        "from_node": "intersection_node_216",
+        "to_node": "intersection_node_215",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629362179639514, -6.972056020037766],
+          [107.629898272248099, -6.972092266082669]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_215",
+        "from_node": "intersection_node_163",
+        "to_node": "intersection_node_244",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.62918980243542, -6.973246593791806],
+          [107.629964425672199, -6.973250535375997]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_221",
+        "from_node": "intersection_node_255",
+        "to_node": "intersection_node_107",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630954689831995, -6.970942246090495],
+          [107.631223196939217, -6.970547185645392]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_222",
+        "from_node": "intersection_node_267",
+        "to_node": "intersection_node_158",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630220635105573, -6.972922511124283],
+          [107.630220635105573, -6.972922511124283],
+          [107.630212774231822, -6.973084723913908]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_223",
+        "from_node": "intersection_node_267",
+        "to_node": "intersection_node_157",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630220635105573, -6.972922511124283],
+          [107.630220373207848, -6.972757367640912]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_224",
+        "from_node": "intersection_node_270",
+        "to_node": "intersection_node_117",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631266382076348, -6.974000726456922],
+          [107.631266382076348, -6.974000726456922],
+          [107.631386109553958, -6.9739990647477]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_225",
+        "from_node": "intersection_node_270",
+        "to_node": "intersection_node_235",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631266382076348, -6.974000726456922],
+          [107.631050629395446, -6.974008593066875]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_226",
+        "from_node": "intersection_node_113",
+        "to_node": "intersection_node_271",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631685982589175, -6.973977940105455],
+          [107.632012867030227, -6.973964269871084]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_293",
+        "from_node": "intersection_node_271",
+        "to_node": "intersection_node_312",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.632012867030227, -6.973964269871084],
+          [107.63256719493728, -6.973971992257987]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_228",
+        "from_node": "intersection_node_140",
+        "to_node": "intersection_node_138",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630287385952059, -6.975305560297744],
+          [107.630270120028939, -6.975229757020519]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_229",
+        "from_node": "intersection_node_139",
+        "to_node": "intersection_node_276",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630383012603176, -6.975229097861531],
+          [107.630745109526345, -6.97522158497082]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_230",
+        "from_node": "intersection_node_276",
+        "to_node": "intersection_node_277",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630745109526345, -6.97522158497082],
+          [107.631088816511451, -6.975219465945174]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_231",
+        "from_node": "intersection_node_277",
+        "to_node": "intersection_node_134",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631088816511451, -6.975219465945174],
+          [107.631622163337539, -6.975218244092365]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_234",
+        "from_node": "intersection_node_140",
+        "to_node": "intersection_node_302",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630287385952059, -6.975305560297744],
+          [107.629591196125787, -6.9752927831987]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_235",
+        "from_node": "intersection_node_302",
+        "to_node": "intersection_node_143",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629591196125787, -6.9752927831987],
+          [107.629041983006559, -6.975298524371945]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_236",
+        "from_node": "gate_4",
+        "to_node": "intersection_node_304",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.63288059065988, -6.976101174358435],
+          [107.632143266829431, -6.976111736851339]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_237",
+        "from_node": "intersection_node_135",
+        "to_node": "intersection_node_282",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631622163337539, -6.975283303081339],
+          [107.631610599611591, -6.975736513057722]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_238",
+        "from_node": "intersection_node_282",
+        "to_node": "intersection_node_305",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631610599611591, -6.975736513057722],
+          [107.63159672106211, -6.976001592975872]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_239",
+        "from_node": "intersection_node_305",
+        "to_node": "intersection_node_283",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.63159672106211, -6.976001592975872],
+          [107.631594914110835, -6.9761436395091]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_240",
+        "from_node": "intersection_node_283",
+        "to_node": "intersection_node_293",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631594914110835, -6.9761436395091],
+          [107.631585852960441, -6.976249245326306]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_241",
+        "from_node": "intersection_node_293",
+        "to_node": "intersection_node_294",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631585852960441, -6.976249245326306],
+          [107.631579228163275, -6.976420214822515]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_242",
+        "from_node": "intersection_node_294",
+        "to_node": "intersection_node_296",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631579228163275, -6.976420214822515],
+          [107.631570947166793, -6.976596116065961]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_243",
+        "from_node": "intersection_node_296",
+        "to_node": "intersection_node_295",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631570947166793, -6.976596116065961],
+          [107.631564322369599, -6.976755577883752]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_244",
+        "from_node": "intersection_node_295",
+        "to_node": "intersection_node_297",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631564322369599, -6.976755577883752],
+          [107.631554307659684, -6.976876751870511],
+          [107.631431826426038, -6.977041622657928]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_247",
+        "from_node": "intersection_node_298",
+        "to_node": "intersection_node_290",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.63039835806606, -6.977178069241518],
+          [107.630330946799205, -6.977171276970125]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_248",
+        "from_node": "intersection_node_290",
+        "to_node": "intersection_node_287",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630330946799205, -6.977171276970125],
+          [107.630330946799205, -6.977171276970125],
+          [107.630065340275792, -6.977162923957543]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_249",
+        "from_node": "intersection_node_287",
+        "to_node": "intersection_node_299",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630065340275792, -6.977162923957543],
+          [107.630065340275792, -6.977162923957543],
+          [107.629825313110047, -6.97716491776531]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_252",
+        "from_node": "intersection_node_303",
+        "to_node": "intersection_node_143",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.62925421211439, -6.977104818610746],
+          [107.629115757861555, -6.976913250347179],
+          [107.629070435256139, -6.976741737379964],
+          [107.629033610639254, -6.97561987232366],
+          [107.629041983006559, -6.975298524371945]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_258",
+        "from_node": "intersection_node_21",
+        "to_node": "intersection_node_95",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628795125764483, -6.970892195197381],
+          [107.628817066800366, -6.970276337416263]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_259",
+        "from_node": "intersection_node_95",
+        "to_node": "intersection_node_96",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628817066800366, -6.970276337416263],
+          [107.628804877336052, -6.969954493931646]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_260",
+        "from_node": "intersection_node_96",
+        "to_node": "intersection_node_98",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628804877336052, -6.969954493931646],
+          [107.628830942997212, -6.969663742425961]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_261",
+        "from_node": "intersection_node_98",
+        "to_node": "intersection_node_97",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628830942997212, -6.969663742425961],
+          [107.628834763302933, -6.969605913267811]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_262",
+        "from_node": "intersection_node_97",
+        "to_node": "intersection_node_103",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628834763302933, -6.969605913267811],
+          [107.628846224220041, -6.969343311918913]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_263",
+        "from_node": "intersection_node_103",
+        "to_node": "intersection_node_246",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628846224220041, -6.969343311918913],
+          [107.628935142107281, -6.969363636820249]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_264",
+        "from_node": "intersection_node_246",
+        "to_node": "intersection_node_247",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.628935142107281, -6.969363636820249],
+          [107.629101481041729, -6.969397921931726]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_265",
+        "from_node": "intersection_node_247",
+        "to_node": "intersection_node_106",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629101481041729, -6.969397921931726],
+          [107.630659706704535, -6.969779672962739],
+          [107.630726576878288, -6.969846048980782],
+          [107.630783894170079, -6.969972479465337],
+          [107.630901713047635, -6.970250626411301],
+          [107.630954522271679, -6.970328711715752]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_266",
+        "from_node": "intersection_node_106",
+        "to_node": "intersection_node_107",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630954522271679, -6.970328711715752],
+          [107.63108901616539, -6.970458740680061],
+          [107.631223196939217, -6.970547185645392]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_267",
+        "from_node": "intersection_node_107",
+        "to_node": "intersection_node_4",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631223196939217, -6.970547185645392],
+          [107.631813125020543, -6.970931831180535]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_268",
+        "from_node": "intersection_node_4",
+        "to_node": "intersection_node_5",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631813125020543, -6.970931831180535],
+          [107.631447541049567, -6.971451449970827]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_269",
+        "from_node": "intersection_node_5",
+        "to_node": "intersection_node_199",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631447541049567, -6.971451449970827],
+          [107.631189021955024, -6.971248932014475]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_270",
+        "from_node": "intersection_node_199",
+        "to_node": "intersection_node_14",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.631189021955024, -6.971248932014475],
+          [107.630881939132578, -6.971042281105621]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_271",
+        "from_node": "intersection_node_14",
+        "to_node": "intersection_node_255",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630881939132578, -6.971042281105621],
+          [107.630954689831995, -6.970942246090496]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_272",
+        "from_node": "intersection_node_255",
+        "to_node": "intersection_node_107",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630954689831995, -6.970942246090496],
+          [107.631223196939217, -6.970547185645392]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_275",
+        "from_node": "intersection_node_165",
+        "to_node": "intersection_node_307",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630219735870483, -6.972242785110761],
+          [107.629794159242266, -6.972230572520874]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_276",
+        "from_node": "intersection_node_307",
+        "to_node": "intersection_node_152",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629794159242266, -6.972230572520874],
+          [107.629398164000037, -6.972226356057238]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_277",
+        "from_node": "intersection_node_150",
+        "to_node": "intersection_node_308",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629392084819187, -6.972401348577436],
+          [107.629624504734295, -6.9724018156496]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_278",
+        "from_node": "intersection_node_308",
+        "to_node": "intersection_node_243",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629624504734295, -6.9724018156496],
+          [107.629869418211854, -6.972396486343703]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_279",
+        "from_node": "intersection_node_146",
+        "to_node": "intersection_node_163",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629186074501064, -6.973528576335348],
+          [107.62918980243542, -6.973246593791806]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_280",
+        "from_node": "intersection_node_163",
+        "to_node": "intersection_node_147",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.62918980243542, -6.973246593791806],
+          [107.629186912466039, -6.973143557505541]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_281",
+        "from_node": "intersection_node_147",
+        "to_node": "intersection_node_164",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629186912466039, -6.973143557505541],
+          [107.629191032501168, -6.972907577157137]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_282",
+        "from_node": "intersection_node_164",
+        "to_node": "intersection_node_148",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629191032501168, -6.972907577157137],
+          [107.629179625263973, -6.972774243557987],
+          [107.629011280649664, -6.972640563915723],
+          [107.629006056836232, -6.972564272589216]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_283",
+        "from_node": "intersection_node_15",
+        "to_node": "intersection_node_309",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630625790744816, -6.971365535633693],
+          [107.629989267933396, -6.971346352411548]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_284",
+        "from_node": "intersection_node_309",
+        "to_node": "intersection_node_16",
+        "is_one_way": true,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629989267933396, -6.971346352411548],
+          [107.628979970044284, -6.971309823019995]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_285",
+        "from_node": "intersection_node_236",
+        "to_node": "intersection_node_244",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.63006917993016, -6.973244944903532],
+          [107.629964425672199, -6.973250535375997]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_286",
+        "from_node": "intersection_node_227",
+        "to_node": "intersection_node_162",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629035750675584, -6.974442626897745],
+          [107.629039474872442, -6.974541874711427]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_287",
+        "from_node": "intersection_node_303",
+        "to_node": "intersection_node_300",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.62925421211439, -6.977104818610746],
+          [107.629416705035524, -6.9771528225215]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_288",
+        "from_node": "intersection_node_300",
+        "to_node": "intersection_node_299",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.629416705035524, -6.9771528225215],
+          [107.629825313110047, -6.97716491776531]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_289",
+        "from_node": "intersection_node_298",
+        "to_node": "intersection_node_286",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.63039835806606, -6.977178069241518],
+          [107.630566070329209, -6.977172631417815]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_290",
+        "from_node": "intersection_node_286",
+        "to_node": "intersection_node_297",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": false,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.630566070329209, -6.977172631417815],
+          [107.631154180754166, -6.977177946693948],
+          [107.631279638093133, -6.977154597641021],
+          [107.631375691368291, -6.977100116512993],
+          [107.631431826426038, -6.977041622657928]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "main_edge_291",
+        "from_node": "intersection_node_306",
+        "to_node": "intersection_node_10",
+        "is_one_way": false,
+        "speed_pedestrian": 5,
+        "speed_motorcycle": 20,
+        "speed_car": 15,
+        "is_pedestrian_allowed": true,
+        "is_motorcycle_allowed": true,
+        "is_car_allowed": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [107.633182293752014, -6.972980086445099],
+          [107.632880248669551, -6.972700012377149]
+        ]
+      }
+    }
+  ]
+}

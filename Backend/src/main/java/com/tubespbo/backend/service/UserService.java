@@ -83,27 +83,22 @@ public class UserService {
         }
     }
 
-    public boolean loginLocal(String email, String password) {
-        // Cari user berdasarkan email
+    public User loginLocal(String email, String password) {
         Optional<User> userOpt = userRepository.findByEmail(email);
 
         if (userOpt.isPresent()) {
             User user = userOpt.get();
 
-            // Lapis 1: Cek apakah akun ini terdaftar lewat Google
             if (user.getLoginProvider() != User.LoginProvider.LOCAL) {
                 throw new RuntimeException("Gagal: Akun ini didaftarkan menggunakan Google. Silakan Login with Google.");
             }
 
-            // Lapis 2: Cek apakah user sudah memverifikasi emailnya
             if (!user.getIsEmailVerified()) {
                 throw new RuntimeException("Gagal: Email belum diverifikasi! Silakan cek email Anda untuk memasukkan kode token.");
             }
 
-            // Lapis 3: Cek kecocokan password
-            // (Catatan PBO: Nanti jika pakai enkripsi, gunakan passwordEncoder.matches() di sini)
             if (user.getPassword().equals(password)) {
-                return true; // Semua lolos, Login Berhasil!
+                return user;
             } else {
                 throw new RuntimeException("Gagal: Password salah!");
             }

@@ -8,6 +8,5 @@ import java.util.List;
 
 @Repository
 public interface HistoryRepository extends JpaRepository<History, String> {
-    // Mengambil riwayat milik user tertentu, diurutkan dari yang paling baru
-    List<History> findByUser_UserIdOrderByTimestampDesc(String userId);
+    List<History> findByUser_UserIdOrderByTimestampDesc(java.util.UUID userId);
 }

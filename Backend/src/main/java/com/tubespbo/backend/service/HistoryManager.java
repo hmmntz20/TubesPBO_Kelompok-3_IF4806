@@ -15,26 +15,24 @@ public class HistoryManager {
     @Autowired
     private HistoryRepository historyRepository;
 
-    // Method untuk menyimpan riwayat baru setelah user mencari rute
     public History saveHistory(History history) {
         return historyRepository.save(history);
     }
 
-    // Mengambil semua history milik user
+    // --- UBAH BAGIAN INI ---
     public List<History> getHistoryList(String userId) {
-        return historyRepository.findByUser_UserIdOrderByTimestampDesc(userId);
+        // Konversi String dari Frontend menjadi tipe UUID untuk Database
+        java.util.UUID userUuid = java.util.UUID.fromString(userId);
+        return historyRepository.findByUser_UserIdOrderByTimestampDesc(userUuid);
     }
 
-    // Method sesuai Class Diagram: Logika Filter di Layar History
     public List<History> applyFilter(String userId, TravelMode filterType) {
         List<History> allHistory = getHistoryList(userId);
         
-        // Jika tidak ada filter, kembalikan semua
         if (filterType == null) {
             return allHistory;
         }
 
-        // Filter berdasarkan transport mode
         return allHistory.stream()
                 .filter(h -> h.getTransportMode() == filterType)
                 .collect(Collectors.toList());
