@@ -39,6 +39,7 @@ export default function Profile() {
   const [newPassword, setNewPassword] = useState('');
   const [confirmPassText, setConfirmPassText] = useState('');
   const [isUpdatingPass, setIsUpdatingPass] = useState(false);
+  const [loginProvider, setLoginProvider] = useState('LOCAL');
 
   // 1. Memuat Data dari HP (AsyncStorage) saat halaman dibuka
   useFocusEffect(
@@ -47,10 +48,11 @@ export default function Profile() {
         const storedName = await AsyncStorage.getItem('userName');
         const storedEmail = await AsyncStorage.getItem('userEmail');
         const storedPhoto = await AsyncStorage.getItem('userPhoto');
-
+        const storedProvider = await AsyncStorage.getItem('loginProvider');
         if (storedName) setUsername(storedName);
         if (storedEmail) setEmail(storedEmail);
         if (storedPhoto) setProfilePic(storedPhoto);
+        if (storedProvider) setLoginProvider(storedProvider);
       };
       loadUserData();
     }, [])
@@ -179,12 +181,25 @@ export default function Profile() {
               value={username} 
               onPress={() => setShowUserModal(true)} 
             />
+
             <View style={tw`h-[1px] bg-gray-50 mx-4`} />
+            
             <SettingItem 
               icon="lock-closed-outline" 
               label="Password" 
               value="••••••••" 
-              onPress={() => setShowPassModal(true)} 
+              onPress={() => {
+                // CEK TIPE LOGIN SAAT TOMBOL DITEKAN
+                if (loginProvider === 'GOOGLE') {
+                  Alert.alert(
+                    "Akses Ditolak", 
+                    "Anda masuk menggunakan akun Google. Kata sandi akun ini diatur langsung oleh Google dan tidak dapat diubah melalui aplikasi."
+                  );
+                } else {
+                  // Jika login manual (LOCAL), tampilkan modal ganti password
+                  setShowPassModal(true);
+                }
+              }} 
             />
           </View>
         </View>

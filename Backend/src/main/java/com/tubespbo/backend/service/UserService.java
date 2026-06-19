@@ -1,5 +1,5 @@
 package com.tubespbo.backend.service;
-
+import org.springframework.beans.factory.annotation.Value;
 import com.tubespbo.backend.model.User;
 import com.tubespbo.backend.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +17,9 @@ public class UserService {
 
     @Autowired
     private UserRepository userRepository;
+
+    @Value("${app.frontend.url}")
+    private String frontendUrl;
 
     // 1. Method Register
     public User register(User user) {
@@ -38,7 +41,7 @@ public class UserService {
 
         User savedUser = userRepository.save(user);
 
-        String verificationLink = "http://localhost:8080/api/users/verify?token=" + token;
+        String verificationLink = frontendUrl + "/api/users/verify?token=" + token;
         emailService.sendVerificationEmail(savedUser.getEmail(), verificationLink);
         return savedUser;
 
@@ -73,7 +76,7 @@ public class UserService {
                 user.setVerificationToken(UUID.randomUUID().toString());
                 user.setTokenExpiredAt(LocalDateTime.now().plusMinutes(15));
                 userRepository.save(user);
-                String newLink = "http://localhost:8080/api/users/verify?token=" + user.getVerificationToken();
+                String newLink = frontendUrl + "/api/users/verify?token=" + user.getVerificationToken();
                 emailService.sendVerificationEmail(user.getEmail(), newLink);
             } else {
                 throw new RuntimeException("Email sudah diverifikasi sebelumnya.");

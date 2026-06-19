@@ -3,9 +3,6 @@ package com.tubespbo.backend.model;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
-import org.hibernate.annotations.JdbcTypeCode;
-import org.hibernate.type.SqlTypes;
-
 @Entity
 @Table(name = "users")
 public class User {

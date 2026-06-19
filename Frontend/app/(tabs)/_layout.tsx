@@ -28,7 +28,7 @@ export default function TabLayout() {
         >
           <Stack.Screen name="index" />
           <Stack.Screen name="history" />
-          <Stack.Screen name="settings" />
+          <Stack.Screen name="profile" />
         </Stack>
 
         {isTabBarVisible && <NavigationBar />}

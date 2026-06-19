@@ -9,8 +9,6 @@ import java.util.UUID;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, UUID> {
-    // Cukup dengan mengetikkan nama method ini, Spring Boot otomatis paham 
-    // bahwa kita ingin mencari User berdasarkan kolom email. Canggih, kan?
     Optional<User> findByEmail(String email);
     
     Optional<User> findByVerificationToken(String verificationToken);

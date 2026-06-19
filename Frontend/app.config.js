@@ -24,6 +24,9 @@ export default {
       "predictiveBackGestureEnabled": false,
       "package": "com.ca3l.myapp",
       "config": {
+          "googleMaps": {
+            "apiKey": "AIzaSyDOE3Q05v5ycD3YDPF1LRAEy8GSb6V7jF"
+          }
         }
       }
     },
